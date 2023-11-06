@@ -44,8 +44,10 @@ def main():
         if i-1 or i in badIndices:
             trajectory[:, i] = trajectory[:, i-1]
         else:
-            R, t = estimateMotion(matches, keypoints, descriptors, i-1)
-            trajectory[:, i] = trajectory[:, i-1] + np.dot(R, t).reshape(-1)
+            Rmat, tvec = estimateMotion(matches, keypoints, descriptors, i-1)
+            trajectory[:, i] = trajectory[:, i-1] + np.dot(Rmat, tvec).reshape(-1)
+
+    ic(trajectory.shape)
 
     if PLOT_TRAJECTORY:
         # Plot the trajectory in 3D
@@ -55,8 +57,11 @@ def main():
         ax.set_xlabel('X')
         ax.set_ylabel('Y')
         ax.set_zlabel('Z')
+        ax.text(trajectory[0, 0], trajectory[1, 0], trajectory[2, 0], "Path Start")
+        ax.text(trajectory[0, -1], trajectory[1, -1], trajectory[2, -1], "Path End")
         ax.set_title('Camera Trajectory')
         plt.show()
 
 if __name__ == "__main__":
     main()
+

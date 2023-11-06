@@ -166,11 +166,11 @@ def matchFeatures(datasetHandler: datasetHandler, frameNumber: int, filter=None,
                 print()
 
         if filter is None:
-            print(f"Number of features matched in frames {numMatches}")
+            print(f"Matches Found: {numMatches}")
         elif filter is not None:
             maxDistance = max([match.distance for match in matches])
             matches = [match for match in matches if match.distance <= filter * maxDistance]
-            print(f"Number of features matched in frames after filtering: {len(matches)}/{numMatches}")
+            print(f"Matches Found After Filtering: {len(matches)}/{numMatches}")
         
     return matches
 
@@ -214,3 +214,36 @@ def estimateMotion(matches, keypoints, descriptors, frameNumber: int):
     _, R, t, mask = cv2.recoverPose(E, src_pts, dst_pts)
 
     return R, t
+
+def animateFrames(fileList, outputFilename, fps=20):
+    """
+    Animate the frames
+
+    Arguments:
+    fileList -- list of filenames of the frames
+    outputFilename -- filename of the output video
+    fps -- frames per second
+
+    Returns:
+    None
+
+    """
+    # Get frame size
+    img0 = cv2.imread(fileList[0])
+    height, width, _ = img0.shape
+    # Create a VideoWriter object
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    video = cv2.VideoWriter(outputFilename, fourcc, fps, (width, height))
+
+    # Iterate through the frames
+    for filename in fileList:
+        # Read the frame
+        img = cv2.imread(filename)
+
+        # Write the frame to the video
+        video.write(img)
+
+    # Release the VideoWriter object
+    video.release()
+
+    return
