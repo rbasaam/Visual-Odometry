@@ -1,20 +1,29 @@
 from utils import *
-import pandas as pd
-import cv2
 
-from icecream import ic
-
-ROOT_DIR = "S:\GitHub\Visual-Odometry\data"
+ROOT_DIR = "N:\GitHub\Visual-Odometry\data"
 FEATURE_DETECTOR = "ORB" # "ORB" or "SIFT"
+
+ANIMATE_FRAMES = False
+ANIMATION_FPS = 30.0
+ANIMATION_FILE = None
+
+CREATE_LOG = True
+SAVE_IMG = True
 
 def main():
     
-    dataset = dataManager(ROOT_DIR)
-    dataset.sampleFrame(1)
-    trajectory = dataset.plotTrajectory(featureDetector=FEATURE_DETECTOR)
+    dataset = dataManager(
+        dataDir = ROOT_DIR,
+        featureDetector=FEATURE_DETECTOR
+        )
 
-    ic(trajectory.shape)
-    ic(trajectory)
+    if ANIMATE_FRAMES:
+        dataset.animateFrames()
+    
+    trajectory = dataset.trackMotion(
+        plottingFlag=SAVE_IMG,
+        loggingFlag=CREATE_LOG
+    )
 
     return
 
