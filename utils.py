@@ -71,6 +71,7 @@ class dataManager():
                     goodMatches.append(m)
         except ValueError:
             pass
+
         draw_params = dict(matchColor = -1, # draw matches in green color
                  singlePointColor = None,
                  matchesMask = None, # draw only inliers
@@ -92,3 +93,20 @@ class dataManager():
         T = self._form_transf(R, t)
         return T
         
+    def plotTrajectory(self):
+        trajectory = np.zeros((3, self.numImages))
+        for i in range(self.numImages-1):
+            q1, q2 = self.getMatches(i)
+            transf = self.getPose(q1, q2)
+            trajectory[:, i] = transf[:3, 3]
+
+        # Plot the trajectory
+        fig = plt.figure()
+        ax = fig.add_subplot(projection='3d')
+        ax.plot(trajectory[0], trajectory[1], trajectory[2], label='Trajectory')
+        ax.legend()
+        ax.text(trajectory[0, 0], trajectory[1, 0], trajectory[2, 0], "Start")
+        ax.text(trajectory[0, -1], trajectory[1, -1], trajectory[2, -1], "End")
+        plt.show()
+
+        return trajectory
