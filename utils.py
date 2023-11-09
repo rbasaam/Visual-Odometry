@@ -14,8 +14,6 @@ class dataManager():
         # Get the List of Image Filenames to Read
         self.rgbList = [os.path.join(os.path.join(dataDir, "pov"), rgbFile) for rgbFile in os.listdir(os.path.join(dataDir, "pov"))]
         self.depthList = [os.path.join(os.path.join(dataDir, "depth"), depthFile) for depthFile in os.listdir(os.path.join(dataDir, "depth"))]
-        # Sort Lists By File Name to Ensure Frames are in the Correct Order
-
 
         # Get the Number of Frames in the Dataset
         self.numImages = len(self.rgbList)
@@ -61,7 +59,7 @@ class dataManager():
 
         if loggingFlag:
             # Create New Log Files
-            logNumber = len(os.listdir("logs\\results"))+1
+            logNumber = len(os.listdir("logs\\plots"))+1
 
             logFileName = os.path.join("logs\\runtime", f"{self.featureDetector}_log_{logNumber}.txt")
             resultsFilename = os.path.join("logs\\results", f"{self.featureDetector}_trajectory_{logNumber}.txt")
@@ -156,18 +154,20 @@ class dataManager():
                         logFile.write(f"Translation Matrix Shape {t.shape}\n")
                         logFile.write(f"Translation Matrix \n {t}\n")
 
+        path = np.cumsum(trajectory, axis=1)
+        
         if loggingFlag:
             with open(resultsFilename, "a") as resultsFile:
-                np.savetxt(resultsFile, trajectory.transpose(), delimiter=",", newline="\n", fmt="%.4f")
+                np.savetxt(resultsFile, path.transpose(), delimiter=",", newline="\n", fmt="%.4f")
                 
         if plottingFlag:
             # Plot the trajectory
             fig = plt.figure()
             ax = fig.add_subplot(projection='3d')
-            ax.plot(trajectory[0], trajectory[1], trajectory[2], label='Trajectory')
+            ax.plot(path[0], path[1], path[2], label='Trajectory')
             ax.legend()
-            ax.text(trajectory[0, 0], trajectory[1, 0], trajectory[2, 0], "Start")
-            ax.text(trajectory[0, -1], trajectory[1, -1], trajectory[2, -1], "End")
+            ax.text( path[0, 0],  path[1, 0],  path[2, 0], "Start")
+            ax.text(path[0, -1], path[1, -1], path[2, -1],   "End")
             plt.show()
 
             # Save the Plot to Image File in Logs
