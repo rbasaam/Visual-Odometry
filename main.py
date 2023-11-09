@@ -1,7 +1,7 @@
 from utils import *
 
-ROOT_DIR = "N:\GitHub\Visual-Odometry\data"
-FEATURE_DETECTOR = "ORB" # "ORB" or "SIFT"
+ROOT_DIR = "S:\\GitHub\\Visual-Odometry"
+FEATURE_DETECTOR = "SIFT" # "ORB" or "SIFT"
 
 ANIMATE_FRAMES = False
 ANIMATION_FPS = 30.0
@@ -20,7 +20,7 @@ def main():
     if ANIMATE_FRAMES:
         dataset.animateFrames()
     
-    trajectory = dataset.trackMotion(
+    visualPath = dataset.trackMotion(
         plottingFlag=SAVE_IMG,
         loggingFlag=CREATE_LOG
     )

@@ -2,6 +2,7 @@ import os
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 errorMsgs = {
     "err_DescriptorLength": "Descriptor length is less than 2, the size of the kd-tree cannot be less than 2.\n",
@@ -10,10 +11,16 @@ errorMsgs = {
 }
 
 class dataManager():
-    def __init__(self, dataDir: str, featureDetector: str = "ORB"):
+    def __init__(self, rootDir: str, featureDetector: str = "ORB"):
+        # Define Relevant Directories
+        self.dataDir = os.path.join(rootDir, "data")
+        self.logDir = os.path.join(rootDir, "logs")
+        self.resultsDir = os.path.join(self.logDir, "results")
+        self.plotDir = os.path.join(self.logDir, "plots")
+        self.runtimeDir = os.path.join(self.logDir, "runtime")
         # Get the List of Image Filenames to Read
-        self.rgbList = [os.path.join(os.path.join(dataDir, "pov"), rgbFile) for rgbFile in os.listdir(os.path.join(dataDir, "pov"))]
-        self.depthList = [os.path.join(os.path.join(dataDir, "depth"), depthFile) for depthFile in os.listdir(os.path.join(dataDir, "depth"))]
+        self.rgbList = [os.path.join(os.path.join(self.dataDir, "pov"), rgbFile) for rgbFile in os.listdir(os.path.join(self.dataDir, "pov"))]
+        self.depthList = [os.path.join(os.path.join(self.dataDir, "depth"), depthFile) for depthFile in os.listdir(os.path.join(self.dataDir, "depth"))]
 
         # Get the Number of Frames in the Dataset
         self.numImages = len(self.rgbList)
@@ -59,11 +66,11 @@ class dataManager():
 
         if loggingFlag:
             # Create New Log Files
-            logNumber = len(os.listdir("logs\\plots"))+1
+            logNumber = len(os.listdir(self.plotDir))+1
 
-            logFileName = os.path.join("logs\\runtime", f"{self.featureDetector}_log_{logNumber}.txt")
-            resultsFilename = os.path.join("logs\\results", f"{self.featureDetector}_trajectory_{logNumber}.txt")
-            plotFilename = os.path.join("logs\\plots", f"{self.featureDetector}_trajectory_{logNumber}.png")
+            logFileName = os.path.join(self.runtimeDir, f"{self.featureDetector}_log_{logNumber}.txt")
+            resultsFilename = os.path.join(self.resultsDir, f"{self.featureDetector}_path_{logNumber}.txt")
+            plotFilename = os.path.join(self.plotDir, f"{self.featureDetector}_trajectory_{logNumber}.png")
 
             logFile = open(logFileName, "w")
             resultsFile = open(resultsFilename, "w")
@@ -147,6 +154,8 @@ class dataManager():
                 if loggingFlag:
                     with open(logFileName, "a") as logFile:
                         logFile.write(f"Number of Matches with Frame {frameNum+1}: {numMatches}\n")
+                        logFile.write(f"Number of Inliers with Frame {frameNum+1}: {np.sum(mask)}\n")
+                        logFile.write(f"Number of Good Matches with Frame {frameNum+1}: {len(goodMatches)}\n")
                         logFile.write(f"Essential Matrix Shape {E.shape}\n")
                         logFile.write(f"Essential Matrix \n {E} \n")
                         logFile.write(f"Rotation Matrix Shape {R.shape}\n")
@@ -165,6 +174,10 @@ class dataManager():
             fig = plt.figure()
             ax = fig.add_subplot(projection='3d')
             ax.plot(path[0], path[1], path[2], label='Trajectory')
+            ax.set_xlabel('X')
+            ax.set_ylabel('Y')
+            ax.set_zlabel('Z')
+            ax.set_title(f"{self.featureDetector} Trajectory")
             ax.legend()
             ax.text( path[0, 0],  path[1, 0],  path[2, 0], "Start")
             ax.text(path[0, -1], path[1, -1], path[2, -1],   "End")
@@ -176,4 +189,11 @@ class dataManager():
         logFile.close()
         resultsFile.close()
 
+        return path
+
+    def readTrajectory(self, runNumber: int):
+        logFiles = os.listdir(self.resultsDir)
+        filename = [os.path.join(self.resultsDir,x) for x in logFiles if f"_{runNumber}." in x][0]
+        trajectory = np.array(pd.read_csv(filepath_or_buffer=filename, header=None, sep=","))
         return trajectory
+

@@ -1,5 +1,7 @@
 ------------------Frame 1------------------
 Number of Matches with Frame 2: 69
+Number of Inliers with Frame 2: 13770
+Number of Good Matches with Frame 2: 69
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.60615052e-05 -1.06142527e-03  1.30392944e-01]
@@ -17,6 +19,8 @@ Translation Matrix
  [0.00145484]]
 ------------------Frame 2------------------
 Number of Matches with Frame 3: 54
+Number of Inliers with Frame 3: 13770
+Number of Good Matches with Frame 3: 54
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.72877238e-04 -8.34110634e-03 -6.09717426e-01]
@@ -34,6 +38,8 @@ Translation Matrix
  [ 0.01286061]]
 ------------------Frame 3------------------
 Number of Matches with Frame 4: 45
+Number of Inliers with Frame 4: 9690
+Number of Good Matches with Frame 4: 45
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.83083447e-16 -3.23060382e-14 -7.07106781e-01]
@@ -51,6 +57,8 @@ Translation Matrix
  [-4.45949364e-14]]
 ------------------Frame 4------------------
 Number of Matches with Frame 5: 24
+Number of Inliers with Frame 5: 3315
+Number of Good Matches with Frame 5: 24
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.06101664e-05  1.28828556e-02 -4.83146405e-01]
@@ -68,6 +76,8 @@ Translation Matrix
  [-0.01790507]]
 ------------------Frame 5------------------
 Number of Matches with Frame 6: 72
+Number of Inliers with Frame 6: 14535
+Number of Good Matches with Frame 6: 72
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.86061546e-18 -8.41121326e-17 -7.07106781e-01]
@@ -85,6 +95,8 @@ Translation Matrix
  [-8.79475662e-16]]
 ------------------Frame 6------------------
 Number of Matches with Frame 7: 74
+Number of Inliers with Frame 7: 18870
+Number of Good Matches with Frame 7: 74
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.53688668e-06  8.18946007e-03 -6.83136350e-01]
@@ -102,6 +114,8 @@ Translation Matrix
  [0.01131689]]
 ------------------Frame 7------------------
 Number of Matches with Frame 8: 64
+Number of Inliers with Frame 8: 13515
+Number of Good Matches with Frame 8: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.20261293e-05 -5.76842111e-03  3.10230644e-01]
@@ -119,6 +133,8 @@ Translation Matrix
  [-0.00803932]]
 ------------------Frame 8------------------
 Number of Matches with Frame 9: 56
+Number of Inliers with Frame 9: 6885
+Number of Good Matches with Frame 9: 56
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.55173910e-05 -3.95605707e-03  3.83125671e-01]
@@ -136,6 +152,8 @@ Translation Matrix
  [0.00556276]]
 ------------------Frame 9------------------
 Number of Matches with Frame 10: 58
+Number of Inliers with Frame 10: 9690
+Number of Good Matches with Frame 10: 58
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 9.98726523e-07  4.06734787e-03 -4.14955041e-01]
@@ -153,6 +171,8 @@ Translation Matrix
  [-0.0056526 ]]
 ------------------Frame 10------------------
 Number of Matches with Frame 11: 38
+Number of Inliers with Frame 11: 8160
+Number of Good Matches with Frame 11: 38
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.09732155e-07  5.29925920e-03 -3.97035492e-01]
@@ -170,6 +190,8 @@ Translation Matrix
  [-0.00739314]]
 ------------------Frame 11------------------
 Number of Matches with Frame 12: 67
+Number of Inliers with Frame 12: 14025
+Number of Good Matches with Frame 12: 67
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.18366739e-05 -3.13366010e-03  2.71808418e-01]
@@ -187,6 +209,8 @@ Translation Matrix
  [-0.00433516]]
 ------------------Frame 12------------------
 Number of Matches with Frame 13: 70
+Number of Inliers with Frame 13: 15300
+Number of Good Matches with Frame 13: 70
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.77865900e-06  5.39523761e-03 -6.88293296e-01]
@@ -204,6 +228,8 @@ Translation Matrix
  [-0.00747799]]
 ------------------Frame 13------------------
 Number of Matches with Frame 14: 24
+Number of Inliers with Frame 14: 6120
+Number of Good Matches with Frame 14: 24
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.26097659e-06  4.54058180e-03 -4.73090093e-01]
@@ -221,6 +247,8 @@ Translation Matrix
  [-0.0063094 ]]
 ------------------Frame 14------------------
 Number of Matches with Frame 15: 56
+Number of Inliers with Frame 15: 14280
+Number of Good Matches with Frame 15: 56
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.41642654e-05  2.10054294e-04 -5.63183765e-01]
@@ -238,6 +266,8 @@ Translation Matrix
  [ 2.73981786e-04]]
 ------------------Frame 15------------------
 Number of Matches with Frame 16: 21
+Number of Inliers with Frame 16: 5355
+Number of Good Matches with Frame 16: 21
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.38603848e-04  5.55193738e-03 -3.41645773e-01]
@@ -400,6 +430,8 @@ Number of Matches with Frame 53: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 53------------------
 Number of Matches with Frame 54: 6
+Number of Inliers with Frame 54: 1530
+Number of Good Matches with Frame 54: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00331404  0.00361377  0.23313971]
@@ -477,6 +509,8 @@ Number of Matches with Frame 74: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 74------------------
 Number of Matches with Frame 75: 6
+Number of Inliers with Frame 75: 1020
+Number of Good Matches with Frame 75: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.85565760e-04  4.54939513e-03 -5.40217230e-01]
@@ -503,6 +537,8 @@ Number of Matches with Frame 78: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 78------------------
 Number of Matches with Frame 79: 9
+Number of Inliers with Frame 79: 1020
+Number of Good Matches with Frame 79: 9
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.47840447e-05 -2.98426478e-03  2.62939832e-01]
@@ -526,6 +562,8 @@ Number of Matches with Frame 81: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 81------------------
 Number of Matches with Frame 82: 12
+Number of Inliers with Frame 82: 1530
+Number of Good Matches with Frame 82: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.37534451e-05 -4.73770147e-03  5.15632248e-01]
@@ -552,6 +590,8 @@ Number of Matches with Frame 85: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 85------------------
 Number of Matches with Frame 86: 8
+Number of Inliers with Frame 86: 2040
+Number of Good Matches with Frame 86: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.75009109e-05  4.54969442e-03 -4.98814717e-01]
@@ -569,6 +609,8 @@ Translation Matrix
  [-0.00649954]]
 ------------------Frame 86------------------
 Number of Matches with Frame 87: 6
+Number of Inliers with Frame 87: 1530
+Number of Good Matches with Frame 87: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00067158  0.00105366  0.42130216]
@@ -595,6 +637,8 @@ Number of Matches with Frame 90: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 90------------------
 Number of Matches with Frame 91: 21
+Number of Inliers with Frame 91: 3060
+Number of Good Matches with Frame 91: 21
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-9.19202264e-07 -3.30705928e-03  3.51225954e-01]
@@ -612,6 +656,8 @@ Translation Matrix
  [-0.0046783 ]]
 ------------------Frame 91------------------
 Number of Matches with Frame 92: 10
+Number of Inliers with Frame 92: 2550
+Number of Good Matches with Frame 92: 10
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.17625874e-04 -9.38935609e-04  2.91930714e-01]
@@ -629,6 +675,8 @@ Translation Matrix
  [0.0061731 ]]
 ------------------Frame 92------------------
 Number of Matches with Frame 93: 7
+Number of Inliers with Frame 93: 1275
+Number of Good Matches with Frame 93: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00073798 -0.00209804  0.30976308]
@@ -658,6 +706,8 @@ Number of Matches with Frame 97: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 97------------------
 Number of Matches with Frame 98: 6
+Number of Inliers with Frame 98: 1530
+Number of Good Matches with Frame 98: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00090078 -0.00180471  0.22146744]
@@ -681,6 +731,8 @@ Number of Matches with Frame 100: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 100------------------
 Number of Matches with Frame 101: 8
+Number of Inliers with Frame 101: 2040
+Number of Good Matches with Frame 101: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.10055294e-04  2.37145520e-03 -6.73456354e-02]
@@ -698,6 +750,8 @@ Translation Matrix
  [-0.00334829]]
 ------------------Frame 101------------------
 Number of Matches with Frame 102: 11
+Number of Inliers with Frame 102: 2550
+Number of Good Matches with Frame 102: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.67686428e-04  4.33699804e-03 -4.06207887e-01]
@@ -715,6 +769,8 @@ Translation Matrix
  [0.00642868]]
 ------------------Frame 102------------------
 Number of Matches with Frame 103: 30
+Number of Inliers with Frame 103: 5100
+Number of Good Matches with Frame 103: 30
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.32529116e-06  5.69951419e-03 -5.06753135e-01]
@@ -732,6 +788,8 @@ Translation Matrix
  [0.00808604]]
 ------------------Frame 103------------------
 Number of Matches with Frame 104: 29
+Number of Inliers with Frame 104: 7140
+Number of Good Matches with Frame 104: 29
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 7.18486673e-18  5.45307321e-15 -5.71663658e-13]
@@ -752,6 +810,8 @@ Number of Matches with Frame 105: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 105------------------
 Number of Matches with Frame 106: 9
+Number of Inliers with Frame 106: 2295
+Number of Good Matches with Frame 106: 9
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.0019989   0.01590158 -0.03349301]
@@ -769,6 +829,8 @@ Translation Matrix
  [-0.02167369]]
 ------------------Frame 106------------------
 Number of Matches with Frame 107: 11
+Number of Inliers with Frame 107: 2805
+Number of Good Matches with Frame 107: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.92513429e-04  3.96978163e-03 -2.35475068e-01]
@@ -786,6 +848,8 @@ Translation Matrix
  [5.61776427e-05]]
 ------------------Frame 107------------------
 Number of Matches with Frame 108: 8
+Number of Inliers with Frame 108: 2040
+Number of Good Matches with Frame 108: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00096751 -0.01203016  0.38018966]
@@ -803,6 +867,8 @@ Translation Matrix
  [-0.0073484 ]]
 ------------------Frame 108------------------
 Number of Matches with Frame 109: 6
+Number of Inliers with Frame 109: 1530
+Number of Good Matches with Frame 109: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00230151 -0.01010673  0.19487302]
@@ -820,6 +886,8 @@ Translation Matrix
  [-0.00554598]]
 ------------------Frame 109------------------
 Number of Matches with Frame 110: 6
+Number of Inliers with Frame 110: 1530
+Number of Good Matches with Frame 110: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00110561  0.00207172  0.2438471 ]
@@ -840,6 +908,8 @@ Number of Matches with Frame 111: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 111------------------
 Number of Matches with Frame 112: 18
+Number of Inliers with Frame 112: 4590
+Number of Good Matches with Frame 112: 18
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.38738673e-04 -3.38980574e-03 -6.16782789e-01]
@@ -857,6 +927,8 @@ Translation Matrix
  [ 0.00622124]]
 ------------------Frame 112------------------
 Number of Matches with Frame 113: 22
+Number of Inliers with Frame 113: 5355
+Number of Good Matches with Frame 113: 22
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.44480047e-17  4.05259226e-14 -3.91022788e-12]
@@ -877,6 +949,8 @@ Number of Matches with Frame 114: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 114------------------
 Number of Matches with Frame 115: 25
+Number of Inliers with Frame 115: 6375
+Number of Good Matches with Frame 115: 25
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.42702042e-04  5.08900734e-03 -4.96423606e-01]
@@ -894,6 +968,8 @@ Translation Matrix
  [-0.00756646]]
 ------------------Frame 115------------------
 Number of Matches with Frame 116: 13
+Number of Inliers with Frame 116: 3315
+Number of Good Matches with Frame 116: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.77758972e-04  4.87056287e-03 -6.94981926e-01]
@@ -911,6 +987,8 @@ Translation Matrix
  [0.00854586]]
 ------------------Frame 116------------------
 Number of Matches with Frame 117: 12
+Number of Inliers with Frame 117: 3060
+Number of Good Matches with Frame 117: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.11515731e-05  4.67051923e-03 -3.73374422e-01]
@@ -928,6 +1006,8 @@ Translation Matrix
  [-0.00680811]]
 ------------------Frame 117------------------
 Number of Matches with Frame 118: 11
+Number of Inliers with Frame 118: 2805
+Number of Good Matches with Frame 118: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.002179   -0.00751066 -0.62174164]
@@ -945,6 +1025,8 @@ Translation Matrix
  [-0.00353646]]
 ------------------Frame 118------------------
 Number of Matches with Frame 119: 7
+Number of Inliers with Frame 119: 1020
+Number of Good Matches with Frame 119: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.53338569e-04 -3.26633643e-03  3.37234922e-01]
@@ -965,6 +1047,8 @@ Number of Matches with Frame 120: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 120------------------
 Number of Matches with Frame 121: 24
+Number of Inliers with Frame 121: 4080
+Number of Good Matches with Frame 121: 24
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.36641135e-05 -3.37848632e-03  3.47731305e-01]
@@ -982,6 +1066,8 @@ Translation Matrix
  [-0.00483783]]
 ------------------Frame 121------------------
 Number of Matches with Frame 122: 30
+Number of Inliers with Frame 122: 7650
+Number of Good Matches with Frame 122: 30
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.20145097e-16 -1.40075537e-14  1.30473940e-12]
@@ -999,6 +1085,8 @@ Translation Matrix
  [-1.98096724e-14]]
 ------------------Frame 122------------------
 Number of Matches with Frame 123: 17
+Number of Inliers with Frame 123: 3315
+Number of Good Matches with Frame 123: 17
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.02494154e-06  4.39708532e-03 -4.41909593e-01]
@@ -1016,6 +1104,8 @@ Translation Matrix
  [-0.00626871]]
 ------------------Frame 123------------------
 Number of Matches with Frame 124: 7
+Number of Inliers with Frame 124: 1785
+Number of Good Matches with Frame 124: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.11715333e-04 -7.58488437e-03 -6.85527103e-01]
@@ -1033,6 +1123,8 @@ Translation Matrix
  [ 0.01160256]]
 ------------------Frame 124------------------
 Number of Matches with Frame 125: 23
+Number of Inliers with Frame 125: 5865
+Number of Good Matches with Frame 125: 23
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00154415 -0.00618216  0.53650034]
@@ -1050,6 +1142,8 @@ Translation Matrix
  [-0.00706094]]
 ------------------Frame 125------------------
 Number of Matches with Frame 126: 65
+Number of Inliers with Frame 126: 16320
+Number of Good Matches with Frame 126: 65
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.66976553e-04  8.40403010e-03 -6.74076109e-01]
@@ -1067,6 +1161,8 @@ Translation Matrix
  [-0.01364101]]
 ------------------Frame 126------------------
 Number of Matches with Frame 127: 88
+Number of Inliers with Frame 127: 22440
+Number of Good Matches with Frame 127: 88
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00720731 -0.07173733  0.68520038]
@@ -1084,6 +1180,8 @@ Translation Matrix
  [-0.09221548]]
 ------------------Frame 127------------------
 Number of Matches with Frame 128: 110
+Number of Inliers with Frame 128: 23970
+Number of Good Matches with Frame 128: 110
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00995531 -0.0670247   0.35063948]
@@ -1101,6 +1199,8 @@ Translation Matrix
  [ 0.09268741]]
 ------------------Frame 128------------------
 Number of Matches with Frame 129: 125
+Number of Inliers with Frame 129: 20400
+Number of Good Matches with Frame 129: 125
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.03302418e-02 -1.06208053e-01  5.62285080e-01]
@@ -1118,6 +1218,8 @@ Translation Matrix
  [ 0.1452992 ]]
 ------------------Frame 129------------------
 Number of Matches with Frame 130: 128
+Number of Inliers with Frame 130: 27795
+Number of Good Matches with Frame 130: 128
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.01391521 -0.26947532  0.60580325]
@@ -1135,6 +1237,8 @@ Translation Matrix
  [-0.37736519]]
 ------------------Frame 130------------------
 Number of Matches with Frame 131: 145
+Number of Inliers with Frame 131: 36975
+Number of Good Matches with Frame 131: 145
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.01407215 -0.29484097  0.63701821]
@@ -1152,6 +1256,8 @@ Translation Matrix
  [-0.42515418]]
 ------------------Frame 131------------------
 Number of Matches with Frame 132: 153
+Number of Inliers with Frame 132: 39015
+Number of Good Matches with Frame 132: 153
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.52969293e-05  8.35606444e-04  2.30384073e-01]
@@ -1169,6 +1275,8 @@ Translation Matrix
  [ 0.0012088 ]]
 ------------------Frame 132------------------
 Number of Matches with Frame 133: 182
+Number of Inliers with Frame 133: 46410
+Number of Good Matches with Frame 133: 182
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.36162816e-15 -1.61569878e-13  6.42339951e-12]
@@ -1186,6 +1294,8 @@ Translation Matrix
  [ 2.28490239e-13]]
 ------------------Frame 133------------------
 Number of Matches with Frame 134: 150
+Number of Inliers with Frame 134: 37485
+Number of Good Matches with Frame 134: 150
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.46475946e-06  1.94519144e-03 -2.30461990e-01]
@@ -1203,6 +1313,8 @@ Translation Matrix
  [ 0.00273103]]
 ------------------Frame 134------------------
 Number of Matches with Frame 135: 154
+Number of Inliers with Frame 135: 36720
+Number of Good Matches with Frame 135: 154
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.89138567e-06  1.08992849e-02 -7.03565936e-01]
@@ -1220,6 +1332,8 @@ Translation Matrix
  [-0.01518478]]
 ------------------Frame 135------------------
 Number of Matches with Frame 136: 150
+Number of Inliers with Frame 136: 37995
+Number of Good Matches with Frame 136: 150
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.74591533e-16  3.08563064e-14 -3.50750142e-12]
@@ -1237,6 +1351,8 @@ Translation Matrix
  [ 4.36652082e-14]]
 ------------------Frame 136------------------
 Number of Matches with Frame 137: 147
+Number of Inliers with Frame 137: 37485
+Number of Good Matches with Frame 137: 147
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.24739326e-06  2.13550132e-03 -8.75804765e-02]
@@ -1254,6 +1370,8 @@ Translation Matrix
  [ 0.00300646]]
 ------------------Frame 137------------------
 Number of Matches with Frame 138: 162
+Number of Inliers with Frame 138: 40545
+Number of Good Matches with Frame 138: 162
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.98587660e-10  4.89449906e-05 -8.09996156e-04]
@@ -1271,6 +1389,8 @@ Translation Matrix
  [ 6.92137526e-05]]
 ------------------Frame 138------------------
 Number of Matches with Frame 139: 171
+Number of Inliers with Frame 139: 43095
+Number of Good Matches with Frame 139: 171
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.31246781e-16 -3.69405646e-14  2.47144997e-12]
@@ -1288,6 +1408,8 @@ Translation Matrix
  [-5.22418474e-14]]
 ------------------Frame 139------------------
 Number of Matches with Frame 140: 147
+Number of Inliers with Frame 140: 18870
+Number of Good Matches with Frame 140: 147
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.03873173e-05  2.35758940e-03 -2.43351586e-01]
@@ -1305,6 +1427,8 @@ Translation Matrix
  [-0.00319253]]
 ------------------Frame 140------------------
 Number of Matches with Frame 141: 177
+Number of Inliers with Frame 141: 45135
+Number of Good Matches with Frame 141: 177
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.39039230e-19  3.39039230e-19  5.42462767e-16]
@@ -1322,6 +1446,8 @@ Translation Matrix
  [ 4.79473877e-19]]
 ------------------Frame 141------------------
 Number of Matches with Frame 142: 183
+Number of Inliers with Frame 142: 46410
+Number of Good Matches with Frame 142: 183
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.95560087e-17  4.84409985e-15 -3.09255924e-13]
@@ -1339,6 +1465,8 @@ Translation Matrix
  [ 6.85059171e-15]]
 ------------------Frame 142------------------
 Number of Matches with Frame 143: 172
+Number of Inliers with Frame 143: 43350
+Number of Good Matches with Frame 143: 172
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.03416727e-05  2.78027355e-03 -4.42459868e-01]
@@ -1356,6 +1484,8 @@ Translation Matrix
  [ 0.00382239]]
 ------------------Frame 143------------------
 Number of Matches with Frame 144: 150
+Number of Inliers with Frame 144: 38250
+Number of Good Matches with Frame 144: 150
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00108004 -0.11615226  0.03192304]
@@ -1373,6 +1503,8 @@ Translation Matrix
  [-0.16415039]]
 ------------------Frame 144------------------
 Number of Matches with Frame 145: 169
+Number of Inliers with Frame 145: 42840
+Number of Good Matches with Frame 145: 169
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.24555974e-07  1.01255022e-03 -5.75283487e-02]
@@ -1390,6 +1522,8 @@ Translation Matrix
  [ 0.00143096]]
 ------------------Frame 145------------------
 Number of Matches with Frame 146: 199
+Number of Inliers with Frame 146: 33660
+Number of Good Matches with Frame 146: 199
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.69969797e-06  1.47552404e-03 -8.16609439e-02]
@@ -1407,6 +1541,8 @@ Translation Matrix
  [ 0.00202489]]
 ------------------Frame 146------------------
 Number of Matches with Frame 147: 151
+Number of Inliers with Frame 147: 38250
+Number of Good Matches with Frame 147: 151
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.47378540e-05  2.97009260e-04 -3.44655814e-01]
@@ -1424,6 +1560,8 @@ Translation Matrix
  [ 3.33075630e-04]]
 ------------------Frame 147------------------
 Number of Matches with Frame 148: 108
+Number of Inliers with Frame 148: 27540
+Number of Good Matches with Frame 148: 108
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.96278322e-05  8.36329802e-03 -7.00066857e-01]
@@ -1441,6 +1579,8 @@ Translation Matrix
  [0.00996602]]
 ------------------Frame 148------------------
 Number of Matches with Frame 149: 101
+Number of Inliers with Frame 149: 16575
+Number of Good Matches with Frame 149: 101
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.58194038e-05  2.01031533e-03 -7.04841376e-01]
@@ -1458,6 +1598,8 @@ Translation Matrix
  [ 0.00230069]]
 ------------------Frame 149------------------
 Number of Matches with Frame 150: 66
+Number of Inliers with Frame 150: 16830
+Number of Good Matches with Frame 150: 66
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00236825  0.06487253  0.67057594]
@@ -1475,6 +1617,8 @@ Translation Matrix
  [0.10398008]]
 ------------------Frame 150------------------
 Number of Matches with Frame 151: 76
+Number of Inliers with Frame 151: 19380
+Number of Good Matches with Frame 151: 76
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.14124225e-06 -1.45534967e-03 -5.47477067e-01]
@@ -1492,6 +1636,8 @@ Translation Matrix
  [-0.00213314]]
 ------------------Frame 151------------------
 Number of Matches with Frame 152: 18
+Number of Inliers with Frame 152: 4590
+Number of Good Matches with Frame 152: 18
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.38927233e-04  4.64128426e-04 -5.18306765e-01]
@@ -1509,6 +1655,8 @@ Translation Matrix
  [ 9.93875510e-05]]
 ------------------Frame 152------------------
 Number of Matches with Frame 153: 46
+Number of Inliers with Frame 153: 11730
+Number of Good Matches with Frame 153: 46
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.71511587e-05  7.96590342e-04 -6.77228455e-01]
@@ -1526,6 +1674,8 @@ Translation Matrix
  [-3.13204696e-04]]
 ------------------Frame 153------------------
 Number of Matches with Frame 154: 64
+Number of Inliers with Frame 154: 11220
+Number of Good Matches with Frame 154: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.09770353e-05  1.12800821e-03 -6.74177169e-01]
@@ -1543,6 +1693,8 @@ Translation Matrix
  [-0.00134314]]
 ------------------Frame 154------------------
 Number of Matches with Frame 155: 21
+Number of Inliers with Frame 155: 4080
+Number of Good Matches with Frame 155: 21
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.59115202e-05 -2.80271984e-03  1.22207155e-01]
@@ -1560,6 +1712,8 @@ Translation Matrix
  [-0.00381835]]
 ------------------Frame 155------------------
 Number of Matches with Frame 156: 26
+Number of Inliers with Frame 156: 4845
+Number of Good Matches with Frame 156: 26
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.11024939e-05 -3.22644934e-03  2.82150296e-01]
@@ -1577,6 +1731,8 @@ Translation Matrix
  [-0.00450343]]
 ------------------Frame 156------------------
 Number of Matches with Frame 157: 14
+Number of Inliers with Frame 157: 1785
+Number of Good Matches with Frame 157: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.17990650e-05 -3.20842014e-03  2.75016783e-01]
@@ -1594,6 +1750,8 @@ Translation Matrix
  [0.00426881]]
 ------------------Frame 157------------------
 Number of Matches with Frame 158: 15
+Number of Inliers with Frame 158: 2040
+Number of Good Matches with Frame 158: 15
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.23590552e-05  2.89119714e-03 -4.35042128e-01]
@@ -1611,6 +1769,8 @@ Translation Matrix
  [-0.00402451]]
 ------------------Frame 158------------------
 Number of Matches with Frame 159: 26
+Number of Inliers with Frame 159: 6630
+Number of Good Matches with Frame 159: 26
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.14000269e-04 -9.63469100e-04 -5.94986550e-01]
@@ -1628,6 +1788,8 @@ Translation Matrix
  [ 0.00254256]]
 ------------------Frame 159------------------
 Number of Matches with Frame 160: 20
+Number of Inliers with Frame 160: 4590
+Number of Good Matches with Frame 160: 20
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.62013185e-08 -2.68122226e-06 -4.99585754e-01]
@@ -1645,6 +1807,8 @@ Translation Matrix
  [-3.91273445e-06]]
 ------------------Frame 160------------------
 Number of Matches with Frame 161: 12
+Number of Inliers with Frame 161: 2550
+Number of Good Matches with Frame 161: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.17384968e-04 -3.12137564e-03  3.07814687e-01]
@@ -1662,6 +1826,8 @@ Translation Matrix
  [-0.00475043]]
 ------------------Frame 161------------------
 Number of Matches with Frame 162: 27
+Number of Inliers with Frame 162: 5100
+Number of Good Matches with Frame 162: 27
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.85417518e-05 -2.93276132e-03  2.85792895e-01]
@@ -1682,6 +1848,8 @@ Number of Matches with Frame 163: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 163------------------
 Number of Matches with Frame 164: 33
+Number of Inliers with Frame 164: 7395
+Number of Good Matches with Frame 164: 33
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.36069870e-05  2.93242403e-03 -3.59484051e-01]
@@ -1699,6 +1867,8 @@ Translation Matrix
  [0.00448555]]
 ------------------Frame 164------------------
 Number of Matches with Frame 165: 56
+Number of Inliers with Frame 165: 14280
+Number of Good Matches with Frame 165: 56
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 7.65610217e-06 -3.05089094e-04  2.29786293e-03]
@@ -1716,6 +1886,8 @@ Translation Matrix
  [-4.32186781e-04]]
 ------------------Frame 165------------------
 Number of Matches with Frame 166: 75
+Number of Inliers with Frame 166: 14790
+Number of Good Matches with Frame 166: 75
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.16187147e-05 -3.12553286e-03  2.74992307e-01]
@@ -1733,6 +1905,8 @@ Translation Matrix
  [-0.00463243]]
 ------------------Frame 166------------------
 Number of Matches with Frame 167: 35
+Number of Inliers with Frame 167: 7140
+Number of Good Matches with Frame 167: 35
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.31579239e-06  5.11780604e-03 -4.80564904e-01]
@@ -1750,6 +1924,8 @@ Translation Matrix
  [-0.00724276]]
 ------------------Frame 167------------------
 Number of Matches with Frame 168: 56
+Number of Inliers with Frame 168: 14025
+Number of Good Matches with Frame 168: 56
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.68032437e-06  3.45420385e-03 -7.06881318e-01]
@@ -1767,6 +1943,8 @@ Translation Matrix
  [-0.00463154]]
 ------------------Frame 168------------------
 Number of Matches with Frame 169: 31
+Number of Inliers with Frame 169: 7650
+Number of Good Matches with Frame 169: 31
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.00608733e-04  5.62531480e-03 -6.12207022e-01]
@@ -1784,6 +1962,8 @@ Translation Matrix
  [-0.00832571]]
 ------------------Frame 169------------------
 Number of Matches with Frame 170: 90
+Number of Inliers with Frame 170: 22695
+Number of Good Matches with Frame 170: 90
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.75889197e-18 -2.03139582e-15  1.85158188e-13]
@@ -1801,6 +1981,8 @@ Translation Matrix
  [-2.87282752e-15]]
 ------------------Frame 170------------------
 Number of Matches with Frame 171: 79
+Number of Inliers with Frame 171: 20145
+Number of Good Matches with Frame 171: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.76321098e-14 -5.81416799e-14  1.08705651e-11]
@@ -1818,6 +2000,8 @@ Translation Matrix
  [-8.22238342e-14]]
 ------------------Frame 171------------------
 Number of Matches with Frame 172: 72
+Number of Inliers with Frame 172: 18105
+Number of Good Matches with Frame 172: 72
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.01559146e-17 -4.60131863e-15  4.07586540e-13]
@@ -1835,6 +2019,8 @@ Translation Matrix
  [-6.50724721e-15]]
 ------------------Frame 172------------------
 Number of Matches with Frame 173: 70
+Number of Inliers with Frame 173: 16575
+Number of Good Matches with Frame 173: 70
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.95457468e-05  6.22669789e-03 -6.34516120e-01]
@@ -1852,6 +2038,8 @@ Translation Matrix
  [-0.00875068]]
 ------------------Frame 173------------------
 Number of Matches with Frame 174: 83
+Number of Inliers with Frame 174: 20910
+Number of Good Matches with Frame 174: 83
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.22927490e-05  4.21690645e-03 -6.83512848e-01]
@@ -1869,6 +2057,8 @@ Translation Matrix
  [-0.00582366]]
 ------------------Frame 174------------------
 Number of Matches with Frame 175: 90
+Number of Inliers with Frame 175: 22440
+Number of Good Matches with Frame 175: 90
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.61765944e-18  3.94736982e-15 -3.05291501e-13]
@@ -1886,6 +2076,8 @@ Translation Matrix
  [ 5.58242393e-15]]
 ------------------Frame 175------------------
 Number of Matches with Frame 176: 89
+Number of Inliers with Frame 176: 21675
+Number of Good Matches with Frame 176: 89
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.27854920e-05  4.96563996e-03 -6.10519641e-01]
@@ -1903,6 +2095,8 @@ Translation Matrix
  [-0.0069331 ]]
 ------------------Frame 176------------------
 Number of Matches with Frame 177: 74
+Number of Inliers with Frame 177: 16830
+Number of Good Matches with Frame 177: 74
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-9.40681760e-06 -4.69823568e-03  3.59635056e-01]
@@ -1920,6 +2114,8 @@ Translation Matrix
  [-0.00648837]]
 ------------------Frame 177------------------
 Number of Matches with Frame 178: 95
+Number of Inliers with Frame 178: 24225
+Number of Good Matches with Frame 178: 95
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.94780306e-05  8.83803737e-03 -6.46315721e-01]
@@ -1937,6 +2133,8 @@ Translation Matrix
  [-0.012451  ]]
 ------------------Frame 178------------------
 Number of Matches with Frame 179: 79
+Number of Inliers with Frame 179: 19635
+Number of Good Matches with Frame 179: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.55334962e-05  6.17268153e-03 -7.04899403e-01]
@@ -1954,6 +2152,8 @@ Translation Matrix
  [-0.00834783]]
 ------------------Frame 179------------------
 Number of Matches with Frame 180: 84
+Number of Inliers with Frame 180: 21165
+Number of Good Matches with Frame 180: 84
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.01880428e-04  2.38969127e-02 -6.38050688e-01]
@@ -1971,6 +2171,8 @@ Translation Matrix
  [-0.03274012]]
 ------------------Frame 180------------------
 Number of Matches with Frame 181: 61
+Number of Inliers with Frame 181: 15300
+Number of Good Matches with Frame 181: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.34909705e-05  2.94741668e-03 -6.71970419e-01]
@@ -1988,6 +2190,8 @@ Translation Matrix
  [-0.00392175]]
 ------------------Frame 181------------------
 Number of Matches with Frame 182: 80
+Number of Inliers with Frame 182: 20400
+Number of Good Matches with Frame 182: 80
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.04193535e-04  6.17362314e-03 -5.92806091e-01]
@@ -2005,6 +2209,8 @@ Translation Matrix
  [-0.008265  ]]
 ------------------Frame 182------------------
 Number of Matches with Frame 183: 92
+Number of Inliers with Frame 183: 23205
+Number of Good Matches with Frame 183: 92
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.83108714e-18  1.31629452e-14 -3.16227766e-01]
@@ -2022,6 +2228,8 @@ Translation Matrix
  [ 1.81726563e-14]]
 ------------------Frame 183------------------
 Number of Matches with Frame 184: 69
+Number of Inliers with Frame 184: 14790
+Number of Good Matches with Frame 184: 69
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.47878634e-05 -3.47450385e-03  3.12897156e-01]
@@ -2039,6 +2247,8 @@ Translation Matrix
  [-0.00477723]]
 ------------------Frame 184------------------
 Number of Matches with Frame 185: 72
+Number of Inliers with Frame 185: 16830
+Number of Good Matches with Frame 185: 72
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.53121925e-05 -3.45439304e-03  2.89203887e-01]
@@ -2056,6 +2266,8 @@ Translation Matrix
  [-0.00474311]]
 ------------------Frame 185------------------
 Number of Matches with Frame 186: 68
+Number of Inliers with Frame 186: 16065
+Number of Good Matches with Frame 186: 68
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.64597998e-06 -3.20458703e-03  2.43323206e-01]
@@ -2073,6 +2285,8 @@ Translation Matrix
  [-0.00452203]]
 ------------------Frame 186------------------
 Number of Matches with Frame 187: 68
+Number of Inliers with Frame 187: 15300
+Number of Good Matches with Frame 187: 68
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.48694159e-06  3.33930330e-03 -2.78175268e-01]
@@ -2090,6 +2304,8 @@ Translation Matrix
  [-0.00464671]]
 ------------------Frame 187------------------
 Number of Matches with Frame 188: 77
+Number of Inliers with Frame 188: 17595
+Number of Good Matches with Frame 188: 77
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.73595460e-05  4.56341687e-03 -4.76070829e-01]
@@ -2107,6 +2323,8 @@ Translation Matrix
  [-0.00617207]]
 ------------------Frame 188------------------
 Number of Matches with Frame 189: 49
+Number of Inliers with Frame 189: 12495
+Number of Good Matches with Frame 189: 49
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.78620225e-05  1.08211562e-02  3.08698613e-01]
@@ -2124,6 +2342,8 @@ Translation Matrix
  [0.02566989]]
 ------------------Frame 189------------------
 Number of Matches with Frame 190: 48
+Number of Inliers with Frame 190: 12240
+Number of Good Matches with Frame 190: 48
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.0018251   0.03678221  0.35046626]
@@ -2141,6 +2361,8 @@ Translation Matrix
  [0.06207812]]
 ------------------Frame 190------------------
 Number of Matches with Frame 191: 58
+Number of Inliers with Frame 191: 11220
+Number of Good Matches with Frame 191: 58
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.32536701e-05  3.93863822e-03 -4.21795820e-01]
@@ -2158,6 +2380,8 @@ Translation Matrix
  [-0.00549748]]
 ------------------Frame 191------------------
 Number of Matches with Frame 192: 39
+Number of Inliers with Frame 192: 8925
+Number of Good Matches with Frame 192: 39
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.17289599e-06  6.75163177e-03 -6.25508988e-01]
@@ -2175,6 +2399,8 @@ Translation Matrix
  [-0.00944163]]
 ------------------Frame 192------------------
 Number of Matches with Frame 193: 96
+Number of Inliers with Frame 193: 20400
+Number of Good Matches with Frame 193: 96
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.67802201e-05 -3.42742688e-03  3.11832581e-01]
@@ -2192,6 +2418,8 @@ Translation Matrix
  [-0.00481526]]
 ------------------Frame 193------------------
 Number of Matches with Frame 194: 92
+Number of Inliers with Frame 194: 21420
+Number of Good Matches with Frame 194: 92
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.40994467e-05  7.19121595e-03 -6.12857589e-01]
@@ -2209,6 +2437,8 @@ Translation Matrix
  [-0.01010569]]
 ------------------Frame 194------------------
 Number of Matches with Frame 195: 73
+Number of Inliers with Frame 195: 18615
+Number of Good Matches with Frame 195: 73
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.52633266e-05  2.94925734e-03 -6.42229919e-01]
@@ -2226,6 +2456,8 @@ Translation Matrix
  [-0.00387001]]
 ------------------Frame 195------------------
 Number of Matches with Frame 196: 69
+Number of Inliers with Frame 196: 17595
+Number of Good Matches with Frame 196: 69
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.27818819e-05  5.50145237e-03 -5.94876120e-01]
@@ -2243,6 +2475,8 @@ Translation Matrix
  [-0.00744258]]
 ------------------Frame 196------------------
 Number of Matches with Frame 197: 61
+Number of Inliers with Frame 197: 14025
+Number of Good Matches with Frame 197: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 7.82166768e-05  3.36738823e-03 -4.33497203e-01]
@@ -2260,6 +2494,8 @@ Translation Matrix
  [-0.0048327 ]]
 ------------------Frame 197------------------
 Number of Matches with Frame 198: 67
+Number of Inliers with Frame 198: 15810
+Number of Good Matches with Frame 198: 67
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.30439292e-05  5.15217463e-03 -4.50273590e-01]
@@ -2277,6 +2513,8 @@ Translation Matrix
  [-0.0073784 ]]
 ------------------Frame 198------------------
 Number of Matches with Frame 199: 55
+Number of Inliers with Frame 199: 14025
+Number of Good Matches with Frame 199: 55
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.14536198e-04 -4.16143771e-03 -1.31011877e-02]
@@ -2294,6 +2532,8 @@ Translation Matrix
  [-0.00588394]]
 ------------------Frame 199------------------
 Number of Matches with Frame 200: 52
+Number of Inliers with Frame 200: 12750
+Number of Good Matches with Frame 200: 52
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 9.43918373e-05  5.76995583e-03 -5.04680560e-01]
@@ -2311,6 +2551,8 @@ Translation Matrix
  [-0.0082628 ]]
 ------------------Frame 200------------------
 Number of Matches with Frame 201: 45
+Number of Inliers with Frame 201: 11475
+Number of Good Matches with Frame 201: 45
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00103521  0.01757499  0.32776348]
@@ -2328,6 +2570,8 @@ Translation Matrix
  [0.03362695]]
 ------------------Frame 201------------------
 Number of Matches with Frame 202: 75
+Number of Inliers with Frame 202: 19125
+Number of Good Matches with Frame 202: 75
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.38668801e-05  5.19680228e-03 -3.82247421e-01]
@@ -2345,6 +2589,8 @@ Translation Matrix
  [ 0.00721502]]
 ------------------Frame 202------------------
 Number of Matches with Frame 203: 66
+Number of Inliers with Frame 203: 16575
+Number of Good Matches with Frame 203: 66
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.15071637e-06  5.58923904e-03 -6.14277849e-01]
@@ -2362,6 +2608,8 @@ Translation Matrix
  [-0.00776609]]
 ------------------Frame 203------------------
 Number of Matches with Frame 204: 74
+Number of Inliers with Frame 204: 18870
+Number of Good Matches with Frame 204: 74
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.96403009e-05  3.08840315e-03 -6.52247864e-01]
@@ -2379,6 +2627,8 @@ Translation Matrix
  [-0.00421029]]
 ------------------Frame 204------------------
 Number of Matches with Frame 205: 64
+Number of Inliers with Frame 205: 14535
+Number of Good Matches with Frame 205: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.15653223e-05 -3.66643715e-03  3.19754703e-01]
@@ -2396,6 +2646,8 @@ Translation Matrix
  [-0.00512722]]
 ------------------Frame 205------------------
 Number of Matches with Frame 206: 60
+Number of Inliers with Frame 206: 15300
+Number of Good Matches with Frame 206: 60
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.14141288e-04  1.25477692e-02 -6.28429583e-01]
@@ -2413,6 +2665,8 @@ Translation Matrix
  [ 0.01667321]]
 ------------------Frame 206------------------
 Number of Matches with Frame 207: 60
+Number of Inliers with Frame 207: 14535
+Number of Good Matches with Frame 207: 60
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.13195989e-06 -3.13711259e-03  2.08050172e-01]
@@ -2430,6 +2684,8 @@ Translation Matrix
  [-0.00445209]]
 ------------------Frame 207------------------
 Number of Matches with Frame 208: 66
+Number of Inliers with Frame 208: 16830
+Number of Good Matches with Frame 208: 66
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.23205586e-05  2.00071388e-03 -3.57770231e-01]
@@ -2447,6 +2703,8 @@ Translation Matrix
  [ 0.00281688]]
 ------------------Frame 208------------------
 Number of Matches with Frame 209: 68
+Number of Inliers with Frame 209: 16065
+Number of Good Matches with Frame 209: 68
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.30438034e-06 -3.83520578e-03  3.15725208e-01]
@@ -2464,6 +2722,8 @@ Translation Matrix
  [-0.00536908]]
 ------------------Frame 209------------------
 Number of Matches with Frame 210: 64
+Number of Inliers with Frame 210: 8670
+Number of Good Matches with Frame 210: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.31332705e-05  4.81101466e-03 -7.06641334e-01]
@@ -2481,6 +2741,8 @@ Translation Matrix
  [-0.00688154]]
 ------------------Frame 210------------------
 Number of Matches with Frame 211: 69
+Number of Inliers with Frame 211: 17595
+Number of Good Matches with Frame 211: 69
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00182863  0.04868804  0.43982071]
@@ -2498,6 +2760,8 @@ Translation Matrix
  [0.08048051]]
 ------------------Frame 211------------------
 Number of Matches with Frame 212: 78
+Number of Inliers with Frame 212: 19380
+Number of Good Matches with Frame 212: 78
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.85284698e-05  3.30906675e-03 -6.62751011e-01]
@@ -2518,6 +2782,8 @@ Number of Matches with Frame 213: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 213------------------
 Number of Matches with Frame 214: 46
+Number of Inliers with Frame 214: 9945
+Number of Good Matches with Frame 214: 46
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.27620607e-05  4.76511125e-03 -4.75580712e-01]
@@ -2535,6 +2801,8 @@ Translation Matrix
  [-0.00661075]]
 ------------------Frame 214------------------
 Number of Matches with Frame 215: 61
+Number of Inliers with Frame 215: 14790
+Number of Good Matches with Frame 215: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.63352958e-05  4.80005453e-03 -4.05180812e-01]
@@ -2552,6 +2820,8 @@ Translation Matrix
  [-0.00681706]]
 ------------------Frame 215------------------
 Number of Matches with Frame 216: 80
+Number of Inliers with Frame 216: 19890
+Number of Good Matches with Frame 216: 80
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.61590188e-05  3.75345747e-03 -4.73091725e-01]
@@ -2569,6 +2839,8 @@ Translation Matrix
  [-0.00522588]]
 ------------------Frame 216------------------
 Number of Matches with Frame 217: 57
+Number of Inliers with Frame 217: 14535
+Number of Good Matches with Frame 217: 57
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.24616515e-04  1.30230270e-02  3.27739269e-01]
@@ -2586,6 +2858,8 @@ Translation Matrix
  [0.03021342]]
 ------------------Frame 217------------------
 Number of Matches with Frame 218: 48
+Number of Inliers with Frame 218: 12240
+Number of Good Matches with Frame 218: 48
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.95560138e-06 -3.21682013e-03  1.78192984e-01]
@@ -2603,6 +2877,8 @@ Translation Matrix
  [-0.00455087]]
 ------------------Frame 218------------------
 Number of Matches with Frame 219: 60
+Number of Inliers with Frame 219: 15300
+Number of Good Matches with Frame 219: 60
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.11351210e-04 -1.42875313e-03 -3.27274397e-01]
@@ -2620,6 +2896,8 @@ Translation Matrix
  [-0.00194758]]
 ------------------Frame 219------------------
 Number of Matches with Frame 220: 52
+Number of Inliers with Frame 220: 13005
+Number of Good Matches with Frame 220: 52
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.32220485e-05  5.06870362e-03 -3.78999030e-01]
@@ -2637,6 +2915,8 @@ Translation Matrix
  [-0.00721911]]
 ------------------Frame 220------------------
 Number of Matches with Frame 221: 47
+Number of Inliers with Frame 221: 10455
+Number of Good Matches with Frame 221: 47
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.64000100e-06  4.19718804e-03 -4.02056867e-01]
@@ -2654,6 +2934,8 @@ Translation Matrix
  [-0.00575577]]
 ------------------Frame 221------------------
 Number of Matches with Frame 222: 69
+Number of Inliers with Frame 222: 17085
+Number of Good Matches with Frame 222: 69
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.34116970e-05  5.05076582e-03 -3.78387462e-01]
@@ -2671,6 +2953,8 @@ Translation Matrix
  [-0.00717162]]
 ------------------Frame 222------------------
 Number of Matches with Frame 223: 52
+Number of Inliers with Frame 223: 13005
+Number of Good Matches with Frame 223: 52
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.28579754e-05 -5.97231561e-03  2.95570120e-01]
@@ -2688,6 +2972,8 @@ Translation Matrix
  [-0.0085626]]
 ------------------Frame 223------------------
 Number of Matches with Frame 224: 74
+Number of Inliers with Frame 224: 18870
+Number of Good Matches with Frame 224: 74
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00107075  0.0261764   0.27505235]
@@ -2705,6 +2991,8 @@ Translation Matrix
  [0.04863562]]
 ------------------Frame 224------------------
 Number of Matches with Frame 225: 52
+Number of Inliers with Frame 225: 12495
+Number of Good Matches with Frame 225: 52
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.40296147e-05 -7.59709947e-03 -7.48474600e-02]
@@ -2722,6 +3010,8 @@ Translation Matrix
  [-0.01065347]]
 ------------------Frame 225------------------
 Number of Matches with Frame 226: 103
+Number of Inliers with Frame 226: 23715
+Number of Good Matches with Frame 226: 103
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.16737621e-04 -4.85703510e-03 -1.97816034e-01]
@@ -2739,6 +3029,8 @@ Translation Matrix
  [ 0.00672322]]
 ------------------Frame 226------------------
 Number of Matches with Frame 227: 51
+Number of Inliers with Frame 227: 11730
+Number of Good Matches with Frame 227: 51
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.06069745e-05  5.02057992e-03 -5.65409161e-01]
@@ -2756,6 +3048,8 @@ Translation Matrix
  [-0.00697215]]
 ------------------Frame 227------------------
 Number of Matches with Frame 228: 29
+Number of Inliers with Frame 228: 7395
+Number of Good Matches with Frame 228: 29
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.85006814e-04 -1.65812145e-03 -5.81361285e-01]
@@ -2773,6 +3067,8 @@ Translation Matrix
  [ 0.00296059]]
 ------------------Frame 228------------------
 Number of Matches with Frame 229: 83
+Number of Inliers with Frame 229: 20145
+Number of Good Matches with Frame 229: 83
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.22616121e-05 -3.85355014e-03  2.94018203e-01]
@@ -2790,6 +3086,8 @@ Translation Matrix
  [-0.00546065]]
 ------------------Frame 229------------------
 Number of Matches with Frame 230: 63
+Number of Inliers with Frame 230: 16065
+Number of Good Matches with Frame 230: 63
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.78674295e-04 -2.42477076e-03  4.33643702e-01]
@@ -2807,6 +3105,8 @@ Translation Matrix
  [ 0.00347611]]
 ------------------Frame 230------------------
 Number of Matches with Frame 231: 57
+Number of Inliers with Frame 231: 14025
+Number of Good Matches with Frame 231: 57
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 7.34384038e-05 -3.89101936e-03  2.30986980e-01]
@@ -2824,6 +3124,8 @@ Translation Matrix
  [-0.00546964]]
 ------------------Frame 231------------------
 Number of Matches with Frame 232: 76
+Number of Inliers with Frame 232: 19125
+Number of Good Matches with Frame 232: 76
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.98284111e-06 -2.75450467e-03  2.14476161e-02]
@@ -2841,6 +3143,8 @@ Translation Matrix
  [-0.00389611]]
 ------------------Frame 232------------------
 Number of Matches with Frame 233: 75
+Number of Inliers with Frame 233: 16065
+Number of Good Matches with Frame 233: 75
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.59641738e-05  6.24695748e-03 -5.31308828e-01]
@@ -2858,6 +3162,8 @@ Translation Matrix
  [-0.00868515]]
 ------------------Frame 233------------------
 Number of Matches with Frame 234: 67
+Number of Inliers with Frame 234: 15045
+Number of Good Matches with Frame 234: 67
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.30469996e-05  5.76508767e-03 -4.15823292e-01]
@@ -2875,6 +3181,8 @@ Translation Matrix
  [-0.00812548]]
 ------------------Frame 234------------------
 Number of Matches with Frame 235: 54
+Number of Inliers with Frame 235: 10965
+Number of Good Matches with Frame 235: 54
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.33835205e-05  6.40408042e-03 -6.27627714e-01]
@@ -2892,6 +3200,8 @@ Translation Matrix
  [-0.00871939]]
 ------------------Frame 235------------------
 Number of Matches with Frame 236: 75
+Number of Inliers with Frame 236: 13260
+Number of Good Matches with Frame 236: 75
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.18848252e-04  3.81660880e-03 -5.51006911e-01]
@@ -2909,6 +3219,8 @@ Translation Matrix
  [-0.00553166]]
 ------------------Frame 236------------------
 Number of Matches with Frame 237: 76
+Number of Inliers with Frame 237: 19125
+Number of Good Matches with Frame 237: 76
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.45772648e-06  5.75304887e-03 -6.15233842e-01]
@@ -2926,6 +3238,8 @@ Translation Matrix
  [-0.00795801]]
 ------------------Frame 237------------------
 Number of Matches with Frame 238: 93
+Number of Inliers with Frame 238: 19635
+Number of Good Matches with Frame 238: 93
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.80601900e-05  5.66128229e-03 -4.64679202e-01]
@@ -2943,6 +3257,8 @@ Translation Matrix
  [-0.00805848]]
 ------------------Frame 238------------------
 Number of Matches with Frame 239: 79
+Number of Inliers with Frame 239: 17595
+Number of Good Matches with Frame 239: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.10199390e-05  4.14623810e-03 -4.33250884e-01]
@@ -2960,6 +3276,8 @@ Translation Matrix
  [-0.00560763]]
 ------------------Frame 239------------------
 Number of Matches with Frame 240: 55
+Number of Inliers with Frame 240: 12495
+Number of Good Matches with Frame 240: 55
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.07249310e-05 -3.84546756e-03  5.19703006e-01]
@@ -2977,6 +3295,8 @@ Translation Matrix
  [-0.00531445]]
 ------------------Frame 240------------------
 Number of Matches with Frame 241: 79
+Number of Inliers with Frame 241: 17850
+Number of Good Matches with Frame 241: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.29588834e-05 -3.31742159e-03  3.39181532e-01]
@@ -2994,6 +3314,8 @@ Translation Matrix
  [-0.00462966]]
 ------------------Frame 241------------------
 Number of Matches with Frame 242: 81
+Number of Inliers with Frame 242: 19380
+Number of Good Matches with Frame 242: 81
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.40562390e-05 -3.36617214e-03  2.37397921e-01]
@@ -3011,6 +3333,8 @@ Translation Matrix
  [-0.00468955]]
 ------------------Frame 242------------------
 Number of Matches with Frame 243: 61
+Number of Inliers with Frame 243: 12495
+Number of Good Matches with Frame 243: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.89509759e-05 -7.26827983e-03  5.83189005e-01]
@@ -3028,6 +3352,8 @@ Translation Matrix
  [-0.01010537]]
 ------------------Frame 243------------------
 Number of Matches with Frame 244: 71
+Number of Inliers with Frame 244: 18105
+Number of Good Matches with Frame 244: 71
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00435042 -0.12817378  0.65910075]
@@ -3045,6 +3371,8 @@ Translation Matrix
  [-0.15332813]]
 ------------------Frame 244------------------
 Number of Matches with Frame 245: 58
+Number of Inliers with Frame 245: 14535
+Number of Good Matches with Frame 245: 58
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.06013070e-05  3.57115664e-03 -3.20322864e-01]
@@ -3062,6 +3390,8 @@ Translation Matrix
  [ 0.00496875]]
 ------------------Frame 245------------------
 Number of Matches with Frame 246: 44
+Number of Inliers with Frame 246: 11220
+Number of Good Matches with Frame 246: 44
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.87659357e-05  6.10508739e-03 -7.01688904e-01]
@@ -3079,6 +3409,8 @@ Translation Matrix
  [-0.00822181]]
 ------------------Frame 246------------------
 Number of Matches with Frame 247: 38
+Number of Inliers with Frame 247: 8415
+Number of Good Matches with Frame 247: 38
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 7.23468622e-06  3.90950361e-03 -6.83427390e-01]
@@ -3096,6 +3428,8 @@ Translation Matrix
  [-0.00543834]]
 ------------------Frame 247------------------
 Number of Matches with Frame 248: 64
+Number of Inliers with Frame 248: 15810
+Number of Good Matches with Frame 248: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.08849897e-05  4.12232348e-03 -4.09942202e-01]
@@ -3113,6 +3447,8 @@ Translation Matrix
  [-0.00559771]]
 ------------------Frame 248------------------
 Number of Matches with Frame 249: 53
+Number of Inliers with Frame 249: 13005
+Number of Good Matches with Frame 249: 53
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.16983903e-05  2.81445427e-03 -3.66170714e-01]
@@ -3130,6 +3466,8 @@ Translation Matrix
  [-0.00392046]]
 ------------------Frame 249------------------
 Number of Matches with Frame 250: 72
+Number of Inliers with Frame 250: 13260
+Number of Good Matches with Frame 250: 72
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.44566510e-16  5.94841529e-16 -1.78026369e-13]
@@ -3147,6 +3485,8 @@ Translation Matrix
  [ 8.31299229e-16]]
 ------------------Frame 250------------------
 Number of Matches with Frame 251: 71
+Number of Inliers with Frame 251: 18105
+Number of Good Matches with Frame 251: 71
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.55660601e-05  7.00997368e-03 -6.58117033e-01]
@@ -3164,6 +3504,8 @@ Translation Matrix
  [-0.00962698]]
 ------------------Frame 251------------------
 Number of Matches with Frame 252: 71
+Number of Inliers with Frame 252: 17340
+Number of Good Matches with Frame 252: 71
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.08969501e-05  5.67458385e-03 -4.41237850e-01]
@@ -3181,6 +3523,8 @@ Translation Matrix
  [-0.00796943]]
 ------------------Frame 252------------------
 Number of Matches with Frame 253: 67
+Number of Inliers with Frame 253: 15555
+Number of Good Matches with Frame 253: 67
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.99460586e-05 -2.97446117e-03  2.94919953e-01]
@@ -3198,6 +3542,8 @@ Translation Matrix
  [-0.00416822]]
 ------------------Frame 253------------------
 Number of Matches with Frame 254: 58
+Number of Inliers with Frame 254: 13515
+Number of Good Matches with Frame 254: 58
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.63871912e-06 -4.75842624e-03  3.61729623e-01]
@@ -3215,6 +3561,8 @@ Translation Matrix
  [-0.00676839]]
 ------------------Frame 254------------------
 Number of Matches with Frame 255: 82
+Number of Inliers with Frame 255: 16320
+Number of Good Matches with Frame 255: 82
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.34890259e-05 -1.71795398e-03  9.29054830e-02]
@@ -3232,6 +3580,8 @@ Translation Matrix
  [-0.00241205]]
 ------------------Frame 255------------------
 Number of Matches with Frame 256: 73
+Number of Inliers with Frame 256: 18615
+Number of Good Matches with Frame 256: 73
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.59568947e-05  7.14700448e-03 -5.59396420e-01]
@@ -3249,6 +3599,8 @@ Translation Matrix
  [-0.00984342]]
 ------------------Frame 256------------------
 Number of Matches with Frame 257: 78
+Number of Inliers with Frame 257: 17595
+Number of Good Matches with Frame 257: 78
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.84772138e-06  4.53665965e-03 -3.62800237e-01]
@@ -3266,6 +3618,8 @@ Translation Matrix
  [-0.00635283]]
 ------------------Frame 257------------------
 Number of Matches with Frame 258: 88
+Number of Inliers with Frame 258: 22185
+Number of Good Matches with Frame 258: 88
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.07420459e-05  5.55774084e-03 -5.81483289e-01]
@@ -3283,6 +3637,8 @@ Translation Matrix
  [-0.00756449]]
 ------------------Frame 258------------------
 Number of Matches with Frame 259: 71
+Number of Inliers with Frame 259: 18105
+Number of Good Matches with Frame 259: 71
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.29508493e-05  8.49447390e-03 -6.76925875e-01]
@@ -3300,6 +3656,8 @@ Translation Matrix
  [-0.01180074]]
 ------------------Frame 259------------------
 Number of Matches with Frame 260: 87
+Number of Inliers with Frame 260: 21930
+Number of Good Matches with Frame 260: 87
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.00910102e-04  9.01056471e-03 -6.33591234e-01]
@@ -3317,6 +3675,8 @@ Translation Matrix
  [-0.01296438]]
 ------------------Frame 260------------------
 Number of Matches with Frame 261: 86
+Number of Inliers with Frame 261: 14280
+Number of Good Matches with Frame 261: 86
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.65605881e-07 -1.50437316e-03  1.35644270e-01]
@@ -3334,6 +3694,8 @@ Translation Matrix
  [0.00208275]]
 ------------------Frame 261------------------
 Number of Matches with Frame 262: 101
+Number of Inliers with Frame 262: 20655
+Number of Good Matches with Frame 262: 101
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.79789723e-06 -3.14960527e-03  3.00172373e-01]
@@ -3351,6 +3713,8 @@ Translation Matrix
  [-0.00435835]]
 ------------------Frame 262------------------
 Number of Matches with Frame 263: 54
+Number of Inliers with Frame 263: 11220
+Number of Good Matches with Frame 263: 54
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.60564276e-06  3.88877544e-03 -3.95028530e-01]
@@ -3368,6 +3732,8 @@ Translation Matrix
  [-0.00535453]]
 ------------------Frame 263------------------
 Number of Matches with Frame 264: 85
+Number of Inliers with Frame 264: 18105
+Number of Good Matches with Frame 264: 85
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.34970433e-05 -4.57686100e-03  3.10602813e-01]
@@ -3385,6 +3751,8 @@ Translation Matrix
  [-0.00645157]]
 ------------------Frame 264------------------
 Number of Matches with Frame 265: 93
+Number of Inliers with Frame 265: 20655
+Number of Good Matches with Frame 265: 93
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.87855971e-06 -3.17191825e-03  3.15579601e-01]
@@ -3402,6 +3770,8 @@ Translation Matrix
  [-0.0043848 ]]
 ------------------Frame 265------------------
 Number of Matches with Frame 266: 89
+Number of Inliers with Frame 266: 21930
+Number of Good Matches with Frame 266: 89
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.63094424e-05  3.60573565e-03 -3.90742169e-01]
@@ -3419,6 +3789,8 @@ Translation Matrix
  [ 0.00506931]]
 ------------------Frame 266------------------
 Number of Matches with Frame 267: 98
+Number of Inliers with Frame 267: 22185
+Number of Good Matches with Frame 267: 98
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.96686751e-06 -3.06680029e-03  2.97864672e-01]
@@ -3436,6 +3808,8 @@ Translation Matrix
  [-0.00424552]]
 ------------------Frame 267------------------
 Number of Matches with Frame 268: 92
+Number of Inliers with Frame 268: 22950
+Number of Good Matches with Frame 268: 92
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.27906116e-05 -3.10243278e-03  2.15307874e-01]
@@ -3453,6 +3827,8 @@ Translation Matrix
  [-0.00436952]]
 ------------------Frame 268------------------
 Number of Matches with Frame 269: 87
+Number of Inliers with Frame 269: 19890
+Number of Good Matches with Frame 269: 87
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.06135837e-05 -3.43100018e-03  2.88704315e-01]
@@ -3470,6 +3846,8 @@ Translation Matrix
  [-0.00488498]]
 ------------------Frame 269------------------
 Number of Matches with Frame 270: 101
+Number of Inliers with Frame 270: 20910
+Number of Good Matches with Frame 270: 101
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.94100471e-05  6.91798125e-03 -5.09595152e-01]
@@ -3487,6 +3865,8 @@ Translation Matrix
  [-0.00971161]]
 ------------------Frame 270------------------
 Number of Matches with Frame 271: 120
+Number of Inliers with Frame 271: 29325
+Number of Good Matches with Frame 271: 120
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.92715938e-05 -2.84089021e-03  3.38298467e-01]
@@ -3504,6 +3884,8 @@ Translation Matrix
  [-0.00390022]]
 ------------------Frame 271------------------
 Number of Matches with Frame 272: 96
+Number of Inliers with Frame 272: 19380
+Number of Good Matches with Frame 272: 96
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.21815845e-16 -9.15220475e-16  9.79593422e-14]
@@ -3521,6 +3903,8 @@ Translation Matrix
  [-2.74336902e-15]]
 ------------------Frame 272------------------
 Number of Matches with Frame 273: 145
+Number of Inliers with Frame 273: 18870
+Number of Good Matches with Frame 273: 145
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.68163023e-05 -2.47645320e-03  2.41982810e-01]
@@ -3538,6 +3922,8 @@ Translation Matrix
  [0.00337902]]
 ------------------Frame 273------------------
 Number of Matches with Frame 274: 117
+Number of Inliers with Frame 274: 26010
+Number of Good Matches with Frame 274: 117
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.39349935e-05 -3.55274513e-03  2.48223051e-01]
@@ -3555,6 +3941,8 @@ Translation Matrix
  [-0.00504834]]
 ------------------Frame 274------------------
 Number of Matches with Frame 275: 107
+Number of Inliers with Frame 275: 27285
+Number of Good Matches with Frame 275: 107
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.38543500e-05  9.74276490e-03 -6.29789851e-01]
@@ -3572,6 +3960,8 @@ Translation Matrix
  [-0.0138889 ]]
 ------------------Frame 275------------------
 Number of Matches with Frame 276: 103
+Number of Inliers with Frame 276: 26265
+Number of Good Matches with Frame 276: 103
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00138903  0.07956122  0.39541953]
@@ -3589,6 +3979,8 @@ Translation Matrix
  [0.12627524]]
 ------------------Frame 276------------------
 Number of Matches with Frame 277: 116
+Number of Inliers with Frame 277: 29070
+Number of Good Matches with Frame 277: 116
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.81164042e-05  5.51882013e-03 -5.88014918e-01]
@@ -3606,6 +3998,8 @@ Translation Matrix
  [ 0.00756597]]
 ------------------Frame 277------------------
 Number of Matches with Frame 278: 89
+Number of Inliers with Frame 278: 22695
+Number of Good Matches with Frame 278: 89
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.54106258e-05  2.98323491e-03 -6.69155264e-01]
@@ -3623,6 +4017,8 @@ Translation Matrix
  [-0.00400745]]
 ------------------Frame 278------------------
 Number of Matches with Frame 279: 97
+Number of Inliers with Frame 279: 24735
+Number of Good Matches with Frame 279: 97
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00172845 -0.00388876 -0.33465206]
@@ -3640,6 +4036,8 @@ Translation Matrix
  [ 0.00716815]]
 ------------------Frame 279------------------
 Number of Matches with Frame 280: 81
+Number of Inliers with Frame 280: 20655
+Number of Good Matches with Frame 280: 81
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00187596  0.0092973  -0.68929487]
@@ -3657,6 +4055,8 @@ Translation Matrix
  [-0.01560914]]
 ------------------Frame 280------------------
 Number of Matches with Frame 281: 19
+Number of Inliers with Frame 281: 4845
+Number of Good Matches with Frame 281: 19
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.03056447  0.14276297 -0.13162764]
@@ -3753,6 +4153,8 @@ Number of Matches with Frame 302: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 302------------------
 Number of Matches with Frame 303: 12
+Number of Inliers with Frame 303: 3060
+Number of Good Matches with Frame 303: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.06263410e-04  6.54471538e-03 -6.85505734e-01]
@@ -3770,6 +4172,8 @@ Translation Matrix
  [-0.00964022]]
 ------------------Frame 303------------------
 Number of Matches with Frame 304: 7
+Number of Inliers with Frame 304: 1530
+Number of Good Matches with Frame 304: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.0042779   0.00793945 -0.54498155]
@@ -3787,6 +4191,8 @@ Translation Matrix
  [0.00957706]]
 ------------------Frame 304------------------
 Number of Matches with Frame 305: 40
+Number of Inliers with Frame 305: 10200
+Number of Good Matches with Frame 305: 40
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.50815521e-05  7.09462473e-03 -5.99099533e-01]
@@ -3804,6 +4210,8 @@ Translation Matrix
  [-0.01070372]]
 ------------------Frame 305------------------
 Number of Matches with Frame 306: 55
+Number of Inliers with Frame 306: 14025
+Number of Good Matches with Frame 306: 55
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.27958659e-05  6.66066402e-03 -6.39903635e-01]
@@ -3821,6 +4229,8 @@ Translation Matrix
  [-0.00998021]]
 ------------------Frame 306------------------
 Number of Matches with Frame 307: 80
+Number of Inliers with Frame 307: 20400
+Number of Good Matches with Frame 307: 80
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.15046792e-06  6.37272837e-03 -6.66857830e-01]
@@ -3838,6 +4248,8 @@ Translation Matrix
  [-0.00935921]]
 ------------------Frame 307------------------
 Number of Matches with Frame 308: 85
+Number of Inliers with Frame 308: 21675
+Number of Good Matches with Frame 308: 85
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.25244116e-17  1.59581406e-15 -5.00000000e-01]
@@ -3855,6 +4267,8 @@ Translation Matrix
  [-2.27252358e-15]]
 ------------------Frame 308------------------
 Number of Matches with Frame 309: 105
+Number of Inliers with Frame 309: 26265
+Number of Good Matches with Frame 309: 105
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.80396104e-09 -7.47372378e-09 -5.00000057e-01]
@@ -3872,6 +4286,8 @@ Translation Matrix
  [ 8.32509310e-09]]
 ------------------Frame 309------------------
 Number of Matches with Frame 310: 14
+Number of Inliers with Frame 310: 2805
+Number of Good Matches with Frame 310: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.99753020e-04  9.21342562e-03 -5.63857222e-01]
@@ -3889,6 +4305,8 @@ Translation Matrix
  [0.01319159]]
 ------------------Frame 310------------------
 Number of Matches with Frame 311: 130
+Number of Inliers with Frame 311: 33150
+Number of Good Matches with Frame 311: 130
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.33260286e-04 -2.61780646e-01  1.81597075e-01]
@@ -3906,6 +4324,8 @@ Translation Matrix
  [ 0.36941977]]
 ------------------Frame 311------------------
 Number of Matches with Frame 312: 160
+Number of Inliers with Frame 312: 40800
+Number of Good Matches with Frame 312: 160
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.76832080e-09 -4.21821216e-08 -3.16224112e-01]
@@ -3923,6 +4343,8 @@ Translation Matrix
  [ 5.76288600e-08]]
 ------------------Frame 312------------------
 Number of Matches with Frame 313: 125
+Number of Inliers with Frame 313: 31875
+Number of Good Matches with Frame 313: 125
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.83632948e-17  3.08560840e-16 -8.24593688e-14]
@@ -3940,6 +4362,8 @@ Translation Matrix
  [ 1.37799154e-15]]
 ------------------Frame 313------------------
 Number of Matches with Frame 314: 122
+Number of Inliers with Frame 314: 31110
+Number of Good Matches with Frame 314: 122
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00152476  0.0501027   0.56643957]
@@ -3957,6 +4381,8 @@ Translation Matrix
  [0.08886724]]
 ------------------Frame 314------------------
 Number of Matches with Frame 315: 112
+Number of Inliers with Frame 315: 28050
+Number of Good Matches with Frame 315: 112
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.10059381e-16 -1.39044770e-15  1.22757325e-13]
@@ -3974,6 +4400,8 @@ Translation Matrix
  [1.96639000e-15]]
 ------------------Frame 315------------------
 Number of Matches with Frame 316: 119
+Number of Inliers with Frame 316: 19890
+Number of Good Matches with Frame 316: 119
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 6.70905056e-05  7.59346579e-03 -5.72618679e-01]
@@ -3991,6 +4419,8 @@ Translation Matrix
  [0.01088448]]
 ------------------Frame 316------------------
 Number of Matches with Frame 317: 139
+Number of Inliers with Frame 317: 35445
+Number of Good Matches with Frame 317: 139
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00955788 -0.14079306  0.18445078]
@@ -4008,6 +4438,8 @@ Translation Matrix
  [-0.1885373 ]]
 ------------------Frame 317------------------
 Number of Matches with Frame 318: 108
+Number of Inliers with Frame 318: 25755
+Number of Good Matches with Frame 318: 108
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.98793686e-04 -1.05873280e-02  3.49792665e-01]
@@ -4025,6 +4457,8 @@ Translation Matrix
  [0.01447787]]
 ------------------Frame 318------------------
 Number of Matches with Frame 319: 115
+Number of Inliers with Frame 319: 28305
+Number of Good Matches with Frame 319: 115
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.24098329e-04  8.13121303e-03 -4.42259899e-01]
@@ -4042,6 +4476,8 @@ Translation Matrix
  [0.01070756]]
 ------------------Frame 319------------------
 Number of Matches with Frame 320: 108
+Number of Inliers with Frame 320: 27285
+Number of Good Matches with Frame 320: 108
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.70886190e-05 -3.37218300e-03  2.52983270e-01]
@@ -4059,6 +4495,8 @@ Translation Matrix
  [0.00453811]]
 ------------------Frame 320------------------
 Number of Matches with Frame 321: 89
+Number of Inliers with Frame 321: 22695
+Number of Good Matches with Frame 321: 89
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.45456061e-07  6.78194678e-03 -7.04986188e-01]
@@ -4076,6 +4514,8 @@ Translation Matrix
  [0.0093229 ]]
 ------------------Frame 321------------------
 Number of Matches with Frame 322: 90
+Number of Inliers with Frame 322: 21930
+Number of Good Matches with Frame 322: 90
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.70497625e-06  6.99383382e-03 -6.30392635e-01]
@@ -4093,6 +4533,8 @@ Translation Matrix
  [0.00945874]]
 ------------------Frame 322------------------
 Number of Matches with Frame 323: 64
+Number of Inliers with Frame 323: 16320
+Number of Good Matches with Frame 323: 64
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.40101655e-05  2.24144258e-03 -2.20072317e-01]
@@ -4110,6 +4552,8 @@ Translation Matrix
  [-0.00299161]]
 ------------------Frame 323------------------
 Number of Matches with Frame 324: 20
+Number of Inliers with Frame 324: 2805
+Number of Good Matches with Frame 324: 20
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.66618084e-05  4.43203747e-03 -4.79200047e-01]
@@ -4127,6 +4571,8 @@ Translation Matrix
  [0.00595414]]
 ------------------Frame 324------------------
 Number of Matches with Frame 325: 11
+Number of Inliers with Frame 325: 2550
+Number of Good Matches with Frame 325: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.89465905e-04  8.67562779e-03 -4.52792311e-01]
@@ -4144,6 +4590,8 @@ Translation Matrix
  [0.01123561]]
 ------------------Frame 325------------------
 Number of Matches with Frame 326: 40
+Number of Inliers with Frame 326: 6630
+Number of Good Matches with Frame 326: 40
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.19015814e-05  5.33897914e-03 -4.68175514e-01]
@@ -4161,6 +4609,8 @@ Translation Matrix
  [0.00712343]]
 ------------------Frame 326------------------
 Number of Matches with Frame 327: 24
+Number of Inliers with Frame 327: 4080
+Number of Good Matches with Frame 327: 24
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.27777518e-05  5.47203496e-03 -5.82737561e-01]
@@ -4181,6 +4631,8 @@ Number of Matches with Frame 328: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 328------------------
 Number of Matches with Frame 329: 8
+Number of Inliers with Frame 329: 2040
+Number of Good Matches with Frame 329: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.80888641e-06  9.28374411e-03 -7.06754088e-01]
@@ -4204,6 +4656,8 @@ Number of Matches with Frame 331: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 331------------------
 Number of Matches with Frame 332: 6
+Number of Inliers with Frame 332: 1020
+Number of Good Matches with Frame 332: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.22087136e-04  4.98997313e-03 -4.84883127e-01]
@@ -4221,6 +4675,8 @@ Translation Matrix
  [0.00698159]]
 ------------------Frame 332------------------
 Number of Matches with Frame 333: 6
+Number of Inliers with Frame 333: 1530
+Number of Good Matches with Frame 333: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00183532  0.00614149 -0.58071502]
@@ -4238,6 +4694,8 @@ Translation Matrix
  [0.00746216]]
 ------------------Frame 333------------------
 Number of Matches with Frame 334: 6
+Number of Inliers with Frame 334: 1020
+Number of Good Matches with Frame 334: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.08379044e-04  5.65267010e-03 -5.61611024e-01]
@@ -4258,6 +4716,8 @@ Number of Matches with Frame 335: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 335------------------
 Number of Matches with Frame 336: 14
+Number of Inliers with Frame 336: 2295
+Number of Good Matches with Frame 336: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.81056629e-05  6.16960474e-03 -6.52156817e-01]
@@ -4278,6 +4738,8 @@ Number of Matches with Frame 337: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 337------------------
 Number of Matches with Frame 338: 21
+Number of Inliers with Frame 338: 3315
+Number of Good Matches with Frame 338: 21
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.00054434e-04  7.00178452e-03 -5.26113778e-01]
@@ -4295,6 +4757,8 @@ Translation Matrix
  [-0.00961481]]
 ------------------Frame 338------------------
 Number of Matches with Frame 339: 12
+Number of Inliers with Frame 339: 3060
+Number of Good Matches with Frame 339: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00371804  0.00464805  0.50929587]
@@ -4312,6 +4776,8 @@ Translation Matrix
  [0.02439748]]
 ------------------Frame 339------------------
 Number of Matches with Frame 340: 34
+Number of Inliers with Frame 340: 8670
+Number of Good Matches with Frame 340: 34
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.95189457e-03 -6.53552073e-03 -5.37028478e-01]
@@ -4329,6 +4795,8 @@ Translation Matrix
  [-0.0071893 ]]
 ------------------Frame 340------------------
 Number of Matches with Frame 341: 6
+Number of Inliers with Frame 341: 1530
+Number of Good Matches with Frame 341: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.75160402e-04 -1.04296964e-03 -2.32581688e-01]
@@ -4349,6 +4817,8 @@ Number of Matches with Frame 342: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 342------------------
 Number of Matches with Frame 343: 32
+Number of Inliers with Frame 343: 8160
+Number of Good Matches with Frame 343: 32
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.95488546e-16  1.05225971e-14 -7.65755148e-13]
@@ -4366,6 +4836,8 @@ Translation Matrix
  [-1.50411443e-14]]
 ------------------Frame 343------------------
 Number of Matches with Frame 344: 22
+Number of Inliers with Frame 344: 3825
+Number of Good Matches with Frame 344: 22
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.16474971e-04  5.74076240e-03 -5.40807166e-01]
@@ -4386,6 +4858,8 @@ Number of Matches with Frame 345: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 345------------------
 Number of Matches with Frame 346: 13
+Number of Inliers with Frame 346: 2295
+Number of Good Matches with Frame 346: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.31482343e-04  6.46438364e-03 -5.81715255e-01]
@@ -4403,6 +4877,8 @@ Translation Matrix
  [0.00883185]]
 ------------------Frame 346------------------
 Number of Matches with Frame 347: 8
+Number of Inliers with Frame 347: 1785
+Number of Good Matches with Frame 347: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.64853534e-04  5.34807588e-03 -5.05703610e-01]
@@ -4420,6 +4896,8 @@ Translation Matrix
  [0.0073768 ]]
 ------------------Frame 347------------------
 Number of Matches with Frame 348: 13
+Number of Inliers with Frame 348: 3315
+Number of Good Matches with Frame 348: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.40238447e-04  5.57206254e-03 -6.27147647e-01]
@@ -4437,6 +4915,8 @@ Translation Matrix
  [0.00761436]]
 ------------------Frame 348------------------
 Number of Matches with Frame 349: 7
+Number of Inliers with Frame 349: 1530
+Number of Good Matches with Frame 349: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 9.75329026e-05  7.95748414e-03 -6.32415545e-01]
@@ -4454,6 +4934,8 @@ Translation Matrix
  [0.01129255]]
 ------------------Frame 349------------------
 Number of Matches with Frame 350: 6
+Number of Inliers with Frame 350: 1530
+Number of Good Matches with Frame 350: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.91018905e-03  1.43729970e-03 -4.96047416e-01]
@@ -4471,6 +4953,8 @@ Translation Matrix
  [ 0.00179767]]
 ------------------Frame 350------------------
 Number of Matches with Frame 351: 10
+Number of Inliers with Frame 351: 2550
+Number of Good Matches with Frame 351: 10
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00052056 -0.02823639  0.48067992]
@@ -4488,6 +4972,8 @@ Translation Matrix
  [-0.02483149]]
 ------------------Frame 351------------------
 Number of Matches with Frame 352: 8
+Number of Inliers with Frame 352: 2040
+Number of Good Matches with Frame 352: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.09097911e-04  6.50688146e-03 -6.54920577e-01]
@@ -4505,6 +4991,8 @@ Translation Matrix
  [ 0.00930903]]
 ------------------Frame 352------------------
 Number of Matches with Frame 353: 12
+Number of Inliers with Frame 353: 3060
+Number of Good Matches with Frame 353: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.49543985e-03  2.48878673e-04  5.67471909e-02]
@@ -4522,6 +5010,8 @@ Translation Matrix
  [-0.0012919 ]]
 ------------------Frame 353------------------
 Number of Matches with Frame 354: 28
+Number of Inliers with Frame 354: 6120
+Number of Good Matches with Frame 354: 28
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.58621697e-04  3.99772831e-03 -5.16479412e-01]
@@ -4545,6 +5035,8 @@ Number of Matches with Frame 356: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 356------------------
 Number of Matches with Frame 357: 8
+Number of Inliers with Frame 357: 1530
+Number of Good Matches with Frame 357: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.42346094e-03 -5.12600789e-03  4.04906911e-01]
@@ -4562,6 +5054,8 @@ Translation Matrix
  [0.00602782]]
 ------------------Frame 357------------------
 Number of Matches with Frame 358: 9
+Number of Inliers with Frame 358: 2295
+Number of Good Matches with Frame 358: 9
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00245728  0.00141303 -0.00153071]
@@ -4582,6 +5076,8 @@ Number of Matches with Frame 359: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 359------------------
 Number of Matches with Frame 360: 16
+Number of Inliers with Frame 360: 2550
+Number of Good Matches with Frame 360: 16
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.40260154e-04  5.40607386e-03 -5.29494871e-01]
@@ -4599,6 +5095,8 @@ Translation Matrix
  [0.00743122]]
 ------------------Frame 360------------------
 Number of Matches with Frame 361: 21
+Number of Inliers with Frame 361: 5100
+Number of Good Matches with Frame 361: 21
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.76596317e-05  1.03912155e-02 -5.98368688e-01]
@@ -4616,6 +5114,8 @@ Translation Matrix
  [ 0.01479326]]
 ------------------Frame 361------------------
 Number of Matches with Frame 362: 13
+Number of Inliers with Frame 362: 1785
+Number of Good Matches with Frame 362: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.48070873e-05  5.80418163e-03 -5.66530463e-01]
@@ -4633,6 +5133,8 @@ Translation Matrix
  [0.00800285]]
 ------------------Frame 362------------------
 Number of Matches with Frame 363: 16
+Number of Inliers with Frame 363: 3060
+Number of Good Matches with Frame 363: 16
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.37613293e-05  5.07913541e-03 -5.10044692e-01]
@@ -4659,6 +5161,8 @@ Number of Matches with Frame 366: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 366------------------
 Number of Matches with Frame 367: 7
+Number of Inliers with Frame 367: 1020
+Number of Good Matches with Frame 367: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00250035 -0.00606273  0.50076091]
@@ -4676,6 +5180,8 @@ Translation Matrix
  [0.00685337]]
 ------------------Frame 367------------------
 Number of Matches with Frame 368: 30
+Number of Inliers with Frame 368: 7650
+Number of Good Matches with Frame 368: 30
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.80912617e-11 -8.73935171e-10  6.89622844e-08]
@@ -4693,6 +5199,8 @@ Translation Matrix
  [-1.23593191e-09]]
 ------------------Frame 368------------------
 Number of Matches with Frame 369: 11
+Number of Inliers with Frame 369: 2805
+Number of Good Matches with Frame 369: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.33969679e-05 -1.12110681e-03 -1.75653252e-01]
@@ -4716,6 +5224,8 @@ Number of Matches with Frame 371: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 371------------------
 Number of Matches with Frame 372: 13
+Number of Inliers with Frame 372: 3315
+Number of Good Matches with Frame 372: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.22425138e-04  3.19061372e-03 -3.70538748e-01]
@@ -4733,6 +5243,8 @@ Translation Matrix
  [0.0044725 ]]
 ------------------Frame 372------------------
 Number of Matches with Frame 373: 13
+Number of Inliers with Frame 373: 2550
+Number of Good Matches with Frame 373: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.11374688e-04  5.04816270e-03 -5.64309759e-01]
@@ -4750,6 +5262,8 @@ Translation Matrix
  [0.00694356]]
 ------------------Frame 373------------------
 Number of Matches with Frame 374: 19
+Number of Inliers with Frame 374: 4335
+Number of Good Matches with Frame 374: 19
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.52801194e-04  5.32641342e-03 -6.34795946e-01]
@@ -4773,6 +5287,8 @@ Number of Matches with Frame 376: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 376------------------
 Number of Matches with Frame 377: 12
+Number of Inliers with Frame 377: 2805
+Number of Good Matches with Frame 377: 12
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.70593892e-05 -4.03108972e-03  3.97718610e-01]
@@ -4796,6 +5312,8 @@ Number of Matches with Frame 379: 4
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 379------------------
 Number of Matches with Frame 380: 6
+Number of Inliers with Frame 380: 1020
+Number of Good Matches with Frame 380: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.15197835e-04  6.04802176e-03 -6.14560522e-01]
@@ -4813,6 +5331,8 @@ Translation Matrix
  [0.00833935]]
 ------------------Frame 380------------------
 Number of Matches with Frame 381: 14
+Number of Inliers with Frame 381: 3570
+Number of Good Matches with Frame 381: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.00676570e-04  7.94750049e-04 -1.48546225e-01]
@@ -4833,6 +5353,8 @@ Number of Matches with Frame 382: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 382------------------
 Number of Matches with Frame 383: 24
+Number of Inliers with Frame 383: 6120
+Number of Good Matches with Frame 383: 24
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.63682994e-05  3.97277953e-03 -4.20064668e-01]
@@ -4856,6 +5378,8 @@ Number of Matches with Frame 385: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 385------------------
 Number of Matches with Frame 386: 27
+Number of Inliers with Frame 386: 6885
+Number of Good Matches with Frame 386: 27
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.50396442e-16  1.52225305e-15 -2.50219434e-13]
@@ -4873,6 +5397,8 @@ Translation Matrix
  [-2.15279091e-15]]
 ------------------Frame 386------------------
 Number of Matches with Frame 387: 13
+Number of Inliers with Frame 387: 2805
+Number of Good Matches with Frame 387: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.94302182e-04  6.21771966e-03 -6.57319040e-01]
@@ -4890,6 +5416,8 @@ Translation Matrix
  [0.00854595]]
 ------------------Frame 387------------------
 Number of Matches with Frame 388: 14
+Number of Inliers with Frame 388: 2295
+Number of Good Matches with Frame 388: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.47342192e-04  6.64369165e-03 -6.61696134e-01]
@@ -4910,6 +5438,8 @@ Number of Matches with Frame 389: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 389------------------
 Number of Matches with Frame 390: 15
+Number of Inliers with Frame 390: 2805
+Number of Good Matches with Frame 390: 15
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.99785688e-09 -2.65408401e-03  3.04103609e-01]
@@ -4930,6 +5460,8 @@ Number of Matches with Frame 391: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 391------------------
 Number of Matches with Frame 392: 8
+Number of Inliers with Frame 392: 1530
+Number of Good Matches with Frame 392: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.32023962e-04  4.48438328e-03 -6.70636411e-01]
@@ -4953,6 +5485,8 @@ Number of Matches with Frame 394: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 394------------------
 Number of Matches with Frame 395: 9
+Number of Inliers with Frame 395: 1785
+Number of Good Matches with Frame 395: 9
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.33890922e-04  6.87415896e-03 -6.17662869e-01]
@@ -4970,6 +5504,8 @@ Translation Matrix
  [0.00946847]]
 ------------------Frame 395------------------
 Number of Matches with Frame 396: 13
+Number of Inliers with Frame 396: 2805
+Number of Good Matches with Frame 396: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.48217367e-04  6.07231639e-03 -6.49118585e-01]
@@ -4987,6 +5523,8 @@ Translation Matrix
  [0.00844366]]
 ------------------Frame 396------------------
 Number of Matches with Frame 397: 22
+Number of Inliers with Frame 397: 5100
+Number of Good Matches with Frame 397: 22
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.60602667e-05  5.54937827e-03 -6.88485620e-01]
@@ -5004,6 +5542,8 @@ Translation Matrix
  [0.00791181]]
 ------------------Frame 397------------------
 Number of Matches with Frame 398: 22
+Number of Inliers with Frame 398: 4080
+Number of Good Matches with Frame 398: 22
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.12861593e-04  6.84151570e-03 -6.48881309e-01]
@@ -5021,6 +5561,8 @@ Translation Matrix
  [0.00949586]]
 ------------------Frame 398------------------
 Number of Matches with Frame 399: 18
+Number of Inliers with Frame 399: 4590
+Number of Good Matches with Frame 399: 18
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.30423582e-17 -6.70775798e-15  6.83190710e-13]
@@ -5038,6 +5580,8 @@ Translation Matrix
  [9.67877860e-15]]
 ------------------Frame 399------------------
 Number of Matches with Frame 400: 19
+Number of Inliers with Frame 400: 3060
+Number of Good Matches with Frame 400: 19
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.88242623e-05  6.28628173e-03 -5.96151735e-01]
@@ -5055,6 +5599,8 @@ Translation Matrix
  [0.00880295]]
 ------------------Frame 400------------------
 Number of Matches with Frame 401: 18
+Number of Inliers with Frame 401: 3060
+Number of Good Matches with Frame 401: 18
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.02223705e-05  5.35321857e-03 -5.54000467e-01]
@@ -5081,6 +5627,8 @@ Number of Matches with Frame 404: 1
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 404------------------
 Number of Matches with Frame 405: 6
+Number of Inliers with Frame 405: 765
+Number of Good Matches with Frame 405: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.07405645e-03  5.61593799e-03 -6.47911559e-01]
@@ -5098,6 +5646,8 @@ Translation Matrix
  [0.01089628]]
 ------------------Frame 405------------------
 Number of Matches with Frame 406: 11
+Number of Inliers with Frame 406: 1785
+Number of Good Matches with Frame 406: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.60926985e-04  6.27592164e-03 -6.34527008e-01]
@@ -5124,6 +5674,8 @@ Number of Matches with Frame 409: 3
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 409------------------
 Number of Matches with Frame 410: 10
+Number of Inliers with Frame 410: 2040
+Number of Good Matches with Frame 410: 10
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.19943205e-04 -5.76073786e-03  5.85338440e-01]
@@ -5177,6 +5729,8 @@ Number of Matches with Frame 422: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 422------------------
 Number of Matches with Frame 423: 13
+Number of Inliers with Frame 423: 3315
+Number of Good Matches with Frame 423: 13
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.14163810e-04  3.38665173e-03 -5.97905078e-01]
@@ -5230,6 +5784,8 @@ Number of Matches with Frame 435: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 435------------------
 Number of Matches with Frame 436: 7
+Number of Inliers with Frame 436: 1785
+Number of Good Matches with Frame 436: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.74922263e-04 -7.33411463e-04  1.16349789e-01]
@@ -5250,6 +5806,8 @@ Number of Matches with Frame 437: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 437------------------
 Number of Matches with Frame 438: 8
+Number of Inliers with Frame 438: 1275
+Number of Good Matches with Frame 438: 8
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.24077535e-04  5.90620767e-03 -6.27532777e-01]
@@ -5297,6 +5855,8 @@ Number of Matches with Frame 448: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 448------------------
 Number of Matches with Frame 449: 11
+Number of Inliers with Frame 449: 2040
+Number of Good Matches with Frame 449: 11
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.01653943e-05  5.44592372e-03 -5.72762631e-01]
@@ -5425,6 +5985,8 @@ Number of Matches with Frame 486: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 486------------------
 Number of Matches with Frame 487: 6
+Number of Inliers with Frame 487: 1530
+Number of Good Matches with Frame 487: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.34512347e-04  8.63762187e-04 -3.79785151e-01]
@@ -5526,6 +6088,8 @@ Number of Matches with Frame 515: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 515------------------
 Number of Matches with Frame 516: 7
+Number of Inliers with Frame 516: 1785
+Number of Good Matches with Frame 516: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.05515042 -0.03220627 -0.63356057]
@@ -5552,6 +6116,8 @@ Number of Matches with Frame 519: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 519------------------
 Number of Matches with Frame 520: 14
+Number of Inliers with Frame 520: 2040
+Number of Good Matches with Frame 520: 14
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00139069  0.00502851 -0.63506478]
@@ -5614,6 +6180,8 @@ Number of Matches with Frame 535: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 535------------------
 Number of Matches with Frame 536: 6
+Number of Inliers with Frame 536: 765
+Number of Good Matches with Frame 536: 6
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.90658618e-04  4.72173584e-03 -5.38641939e-01]
@@ -5631,6 +6199,8 @@ Translation Matrix
  [0.00707561]]
 ------------------Frame 536------------------
 Number of Matches with Frame 537: 7
+Number of Inliers with Frame 537: 1785
+Number of Good Matches with Frame 537: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.63343379e-04 -2.29928691e-03  2.42531633e-01]
@@ -5738,6 +6308,8 @@ Number of Matches with Frame 567: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 567------------------
 Number of Matches with Frame 568: 22
+Number of Inliers with Frame 568: 5610
+Number of Good Matches with Frame 568: 22
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.33373786e-05  7.63839498e-04 -8.18166672e-02]
@@ -5755,6 +6327,8 @@ Translation Matrix
  [ 0.00196362]]
 ------------------Frame 568------------------
 Number of Matches with Frame 569: 88
+Number of Inliers with Frame 569: 22440
+Number of Good Matches with Frame 569: 88
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00366341 -0.03528901  0.6459626 ]
@@ -5772,6 +6346,8 @@ Translation Matrix
  [-0.03992279]]
 ------------------Frame 569------------------
 Number of Matches with Frame 570: 121
+Number of Inliers with Frame 570: 30855
+Number of Good Matches with Frame 570: 121
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00634137 -0.05802989  0.6970938 ]
@@ -5789,6 +6365,8 @@ Translation Matrix
  [-0.07504122]]
 ------------------Frame 570------------------
 Number of Matches with Frame 571: 140
+Number of Inliers with Frame 571: 35700
+Number of Good Matches with Frame 571: 140
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.21540658e-05 -1.11825675e-03  5.95396267e-01]
@@ -5806,6 +6384,8 @@ Translation Matrix
  [-0.00184299]]
 ------------------Frame 571------------------
 Number of Matches with Frame 572: 174
+Number of Inliers with Frame 572: 30600
+Number of Good Matches with Frame 572: 174
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00914086 -0.13534844  0.62525578]
@@ -5823,6 +6403,8 @@ Translation Matrix
  [ 0.19524582]]
 ------------------Frame 572------------------
 Number of Matches with Frame 573: 144
+Number of Inliers with Frame 573: 36465
+Number of Good Matches with Frame 573: 144
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.80398545e-06 -5.79552666e-04 -3.89332194e-01]
@@ -5840,6 +6422,8 @@ Translation Matrix
  [ 7.30040245e-04]]
 ------------------Frame 573------------------
 Number of Matches with Frame 574: 171
+Number of Inliers with Frame 574: 24480
+Number of Good Matches with Frame 574: 171
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.07438661e-15  3.83574485e-13 -1.66842842e-11]
@@ -5857,6 +6441,8 @@ Translation Matrix
  [5.42605617e-13]]
 ------------------Frame 574------------------
 Number of Matches with Frame 575: 161
+Number of Inliers with Frame 575: 21420
+Number of Good Matches with Frame 575: 161
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.82365257e-16  1.72818670e-13 -8.04657884e-12]
@@ -5874,6 +6460,8 @@ Translation Matrix
  [-2.44402507e-13]]
 ------------------Frame 575------------------
 Number of Matches with Frame 576: 154
+Number of Inliers with Frame 576: 27030
+Number of Good Matches with Frame 576: 154
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.97495609e-18  2.10661983e-17 -7.07106781e-01]
@@ -5894,6 +6482,8 @@ Number of Matches with Frame 577: 2
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 577------------------
 Number of Matches with Frame 578: 158
+Number of Inliers with Frame 578: 35700
+Number of Good Matches with Frame 578: 158
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.41802769e-07  5.19772852e-03 -3.43261357e-01]
@@ -5911,6 +6501,8 @@ Translation Matrix
  [ 0.0074641 ]]
 ------------------Frame 578------------------
 Number of Matches with Frame 579: 130
+Number of Inliers with Frame 579: 22950
+Number of Good Matches with Frame 579: 130
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.32711053e-16 -1.31178637e-14 -7.07106781e-01]
@@ -5928,6 +6520,8 @@ Translation Matrix
  [ 1.83503047e-14]]
 ------------------Frame 579------------------
 Number of Matches with Frame 580: 101
+Number of Inliers with Frame 580: 24735
+Number of Good Matches with Frame 580: 101
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.06857294e-09 -1.22739277e-07 -4.99984809e-01]
@@ -5945,6 +6539,8 @@ Translation Matrix
  [ 1.69625436e-07]]
 ------------------Frame 580------------------
 Number of Matches with Frame 581: 66
+Number of Inliers with Frame 581: 15045
+Number of Good Matches with Frame 581: 66
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.96917195e-06 -7.11880013e-03  4.61584066e-01]
@@ -5962,6 +6558,8 @@ Translation Matrix
  [ 0.01025038]]
 ------------------Frame 581------------------
 Number of Matches with Frame 582: 121
+Number of Inliers with Frame 582: 29070
+Number of Good Matches with Frame 582: 121
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.21062693e-09  8.65751139e-08 -4.99994818e-01]
@@ -5979,6 +6577,8 @@ Translation Matrix
  [-1.27130945e-07]]
 ------------------Frame 582------------------
 Number of Matches with Frame 583: 135
+Number of Inliers with Frame 583: 32640
+Number of Good Matches with Frame 583: 135
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.22645685e-11 -2.09760078e-08 -4.99997974e-01]
@@ -5996,6 +6596,8 @@ Translation Matrix
  [ 2.96228106e-08]]
 ------------------Frame 583------------------
 Number of Matches with Frame 584: 140
+Number of Inliers with Frame 584: 35445
+Number of Good Matches with Frame 584: 140
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.58314456e-05  1.44667337e-04 -7.05985114e-01]
@@ -6013,6 +6615,8 @@ Translation Matrix
  [3.45228513e-04]]
 ------------------Frame 584------------------
 Number of Matches with Frame 585: 124
+Number of Inliers with Frame 585: 31620
+Number of Good Matches with Frame 585: 124
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.40715794e-05  1.01679394e-02 -6.84618374e-01]
@@ -6030,6 +6634,8 @@ Translation Matrix
  [0.01335635]]
 ------------------Frame 585------------------
 Number of Matches with Frame 586: 129
+Number of Inliers with Frame 586: 32895
+Number of Good Matches with Frame 586: 129
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.26519582e-07  3.56654325e-04 -6.91119603e-01]
@@ -6047,6 +6653,8 @@ Translation Matrix
  [4.37781679e-04]]
 ------------------Frame 586------------------
 Number of Matches with Frame 587: 128
+Number of Inliers with Frame 587: 30600
+Number of Good Matches with Frame 587: 128
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.98181443e-05 -8.25836034e-04 -6.63564929e-01]
@@ -6064,6 +6672,8 @@ Translation Matrix
  [-0.00137302]]
 ------------------Frame 587------------------
 Number of Matches with Frame 588: 142
+Number of Inliers with Frame 588: 36210
+Number of Good Matches with Frame 588: 142
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.22569952e-03  1.08637887e-01  5.94320977e-01]
@@ -6081,6 +6691,8 @@ Translation Matrix
  [0.16093528]]
 ------------------Frame 588------------------
 Number of Matches with Frame 589: 124
+Number of Inliers with Frame 589: 31620
+Number of Good Matches with Frame 589: 124
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00288933 -0.21412884 -0.08043711]
@@ -6098,6 +6710,8 @@ Translation Matrix
  [-0.30547324]]
 ------------------Frame 589------------------
 Number of Matches with Frame 590: 120
+Number of Inliers with Frame 590: 20145
+Number of Good Matches with Frame 590: 120
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.27780278e-06  2.39166369e-03 -5.47261167e-01]
@@ -6115,6 +6729,8 @@ Translation Matrix
  [-0.00297423]]
 ------------------Frame 590------------------
 Number of Matches with Frame 591: 119
+Number of Inliers with Frame 591: 30345
+Number of Good Matches with Frame 591: 119
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00634681  0.09406882  0.69219122]
@@ -6132,6 +6748,8 @@ Translation Matrix
  [ 0.13333815]]
 ------------------Frame 591------------------
 Number of Matches with Frame 592: 122
+Number of Inliers with Frame 592: 31110
+Number of Good Matches with Frame 592: 122
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.25729811e-04  1.63242839e-03 -2.61709929e-01]
@@ -6149,6 +6767,8 @@ Translation Matrix
  [-0.00173744]]
 ------------------Frame 592------------------
 Number of Matches with Frame 593: 96
+Number of Inliers with Frame 593: 24480
+Number of Good Matches with Frame 593: 96
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.16053189e-04 -5.37581245e-03 -4.16277390e-01]
@@ -6166,6 +6786,8 @@ Translation Matrix
  [-0.00757929]]
 ------------------Frame 593------------------
 Number of Matches with Frame 594: 74
+Number of Inliers with Frame 594: 17595
+Number of Good Matches with Frame 594: 74
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00935745  0.17886492  0.65266674]
@@ -6183,6 +6805,8 @@ Translation Matrix
  [ 0.24888993]]
 ------------------Frame 594------------------
 Number of Matches with Frame 595: 111
+Number of Inliers with Frame 595: 20910
+Number of Good Matches with Frame 595: 111
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.66826197e-05 -3.26766634e-03  2.56463112e-01]
@@ -6200,6 +6824,8 @@ Translation Matrix
  [-0.00441518]]
 ------------------Frame 595------------------
 Number of Matches with Frame 596: 91
+Number of Inliers with Frame 596: 23205
+Number of Good Matches with Frame 596: 91
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.11194141e-04  3.79257760e-03 -5.07743833e-01]
@@ -6217,6 +6843,8 @@ Translation Matrix
  [-0.00484698]]
 ------------------Frame 596------------------
 Number of Matches with Frame 597: 79
+Number of Inliers with Frame 597: 16065
+Number of Good Matches with Frame 597: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.71348377e-17 -1.05554533e-14  9.08270441e-13]
@@ -6234,6 +6862,8 @@ Translation Matrix
  [1.54223943e-14]]
 ------------------Frame 597------------------
 Number of Matches with Frame 598: 97
+Number of Inliers with Frame 598: 19890
+Number of Good Matches with Frame 598: 97
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.08811625e-17  7.01296107e-15 -6.16903704e-13]
@@ -6251,6 +6881,8 @@ Translation Matrix
  [-9.91782466e-15]]
 ------------------Frame 598------------------
 Number of Matches with Frame 599: 98
+Number of Inliers with Frame 599: 24990
+Number of Good Matches with Frame 599: 98
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.67237535e-04 -1.09756032e-02 -5.60178410e-01]
@@ -6268,6 +6900,8 @@ Translation Matrix
  [ 0.01603268]]
 ------------------Frame 599------------------
 Number of Matches with Frame 600: 59
+Number of Inliers with Frame 600: 13515
+Number of Good Matches with Frame 600: 59
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.54428536e-17 -4.80537717e-16 -7.07106781e-01]
@@ -6329,6 +6963,8 @@ Number of Matches with Frame 612: 0
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 612------------------
 Number of Matches with Frame 613: 7
+Number of Inliers with Frame 613: 1530
+Number of Good Matches with Frame 613: 7
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.57677374e-04  2.01570417e-03 -5.91563300e-01]
@@ -6346,6 +6982,8 @@ Translation Matrix
  [0.00518624]]
 ------------------Frame 613------------------
 Number of Matches with Frame 614: 61
+Number of Inliers with Frame 614: 14025
+Number of Good Matches with Frame 614: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00184606  0.07542493 -0.6368558 ]
@@ -6363,6 +7001,8 @@ Translation Matrix
  [-0.10958933]]
 ------------------Frame 614------------------
 Number of Matches with Frame 615: 96
+Number of Inliers with Frame 615: 24480
+Number of Good Matches with Frame 615: 96
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 0.00836877 -0.13637989  0.2449648 ]
@@ -6380,6 +7020,8 @@ Translation Matrix
  [ 0.19055977]]
 ------------------Frame 615------------------
 Number of Matches with Frame 616: 114
+Number of Inliers with Frame 616: 28305
+Number of Good Matches with Frame 616: 114
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.46076205e-04  7.73141400e-03 -6.02644759e-01]
@@ -6397,6 +7039,8 @@ Translation Matrix
  [0.01085168]]
 ------------------Frame 616------------------
 Number of Matches with Frame 617: 107
+Number of Inliers with Frame 617: 27285
+Number of Good Matches with Frame 617: 107
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00473242  0.08326751  0.62185394]
@@ -6414,6 +7058,8 @@ Translation Matrix
  [0.12743442]]
 ------------------Frame 617------------------
 Number of Matches with Frame 618: 99
+Number of Inliers with Frame 618: 25245
+Number of Good Matches with Frame 618: 99
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.25936228e-18  1.28763798e-16 -7.07106781e-01]
@@ -6431,6 +7077,8 @@ Translation Matrix
  [3.02710873e-16]]
 ------------------Frame 618------------------
 Number of Matches with Frame 619: 83
+Number of Inliers with Frame 619: 20910
+Number of Good Matches with Frame 619: 83
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.52039458e-05 -4.66547064e-04 -6.89422777e-01]
@@ -6448,6 +7096,8 @@ Translation Matrix
  [-5.90392026e-04]]
 ------------------Frame 619------------------
 Number of Matches with Frame 620: 87
+Number of Inliers with Frame 620: 22185
+Number of Good Matches with Frame 620: 87
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-0.00243804  0.08191735  0.68679363]
@@ -6468,6 +7118,8 @@ Number of Matches with Frame 621: 5
 Number of matches is less than 6, cannot compute Essential Matrix.
 ------------------Frame 621------------------
 Number of Matches with Frame 622: 54
+Number of Inliers with Frame 622: 11985
+Number of Good Matches with Frame 622: 54
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 4.08272592e-05  2.53025226e-03 -6.77113207e-01]
@@ -6485,6 +7137,8 @@ Translation Matrix
  [0.00342191]]
 ------------------Frame 622------------------
 Number of Matches with Frame 623: 57
+Number of Inliers with Frame 623: 14535
+Number of Good Matches with Frame 623: 57
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.35225530e-04  3.43832244e-03 -5.56083901e-01]
@@ -6502,6 +7156,8 @@ Translation Matrix
  [-0.00436132]]
 ------------------Frame 623------------------
 Number of Matches with Frame 624: 18
+Number of Inliers with Frame 624: 3570
+Number of Good Matches with Frame 624: 18
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.02424546e-04  5.48036174e-03 -5.86708063e-01]
@@ -6519,6 +7175,8 @@ Translation Matrix
  [0.00806056]]
 ------------------Frame 624------------------
 Number of Matches with Frame 625: 34
+Number of Inliers with Frame 625: 8670
+Number of Good Matches with Frame 625: 34
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 2.07347665e-04  5.76662487e-02  5.41471895e-01]
@@ -6536,6 +7194,8 @@ Translation Matrix
  [0.09789926]]
 ------------------Frame 625------------------
 Number of Matches with Frame 626: 53
+Number of Inliers with Frame 626: 13515
+Number of Good Matches with Frame 626: 53
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-7.77213318e-18 -8.12643595e-17 -7.07106781e-01]
@@ -6553,6 +7213,8 @@ Translation Matrix
  [ 0.0000000e+00]]
 ------------------Frame 626------------------
 Number of Matches with Frame 627: 70
+Number of Inliers with Frame 627: 17850
+Number of Good Matches with Frame 627: 70
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.49166230e-17 -6.08704695e-16 -7.07106781e-01]
@@ -6570,6 +7232,8 @@ Translation Matrix
  [ 8.32649770e-16]]
 ------------------Frame 627------------------
 Number of Matches with Frame 628: 62
+Number of Inliers with Frame 628: 15810
+Number of Good Matches with Frame 628: 62
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.57220907e-09  5.39827611e-08 -7.07106815e-01]
@@ -6587,6 +7251,8 @@ Translation Matrix
  [-9.77246664e-08]]
 ------------------Frame 628------------------
 Number of Matches with Frame 629: 63
+Number of Inliers with Frame 629: 16065
+Number of Good Matches with Frame 629: 63
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-2.08913916e-17 -1.52925390e-15 -7.07106781e-01]
@@ -6604,6 +7270,8 @@ Translation Matrix
  [ 2.41581135e-15]]
 ------------------Frame 629------------------
 Number of Matches with Frame 630: 95
+Number of Inliers with Frame 630: 24225
+Number of Good Matches with Frame 630: 95
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.11659493e-16  8.40326639e-15 -7.07106781e-01]
@@ -6621,6 +7289,8 @@ Translation Matrix
  [-1.40955864e-14]]
 ------------------Frame 630------------------
 Number of Matches with Frame 631: 82
+Number of Inliers with Frame 631: 20910
+Number of Good Matches with Frame 631: 82
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.70530792e-17 -3.68572739e-15 -7.07106781e-01]
@@ -6638,6 +7308,8 @@ Translation Matrix
  [ 6.41526851e-15]]
 ------------------Frame 631------------------
 Number of Matches with Frame 632: 57
+Number of Inliers with Frame 632: 13515
+Number of Good Matches with Frame 632: 57
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.30268598e-16 -8.50835587e-15 -7.07106781e-01]
@@ -6655,6 +7327,8 @@ Translation Matrix
  [ 1.14329720e-14]]
 ------------------Frame 632------------------
 Number of Matches with Frame 633: 79
+Number of Inliers with Frame 633: 11220
+Number of Good Matches with Frame 633: 79
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.04217218e-17 -2.10428867e-15 -7.07106781e-01]
@@ -6672,6 +7346,8 @@ Translation Matrix
  [ 3.06931546e-15]]
 ------------------Frame 633------------------
 Number of Matches with Frame 634: 61
+Number of Inliers with Frame 634: 6375
+Number of Good Matches with Frame 634: 61
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.88809286e-13  2.13452742e-11 -7.07106781e-01]
@@ -6689,6 +7365,8 @@ Translation Matrix
  [2.80664748e-11]]
 ------------------Frame 634------------------
 Number of Matches with Frame 635: 51
+Number of Inliers with Frame 635: 7650
+Number of Good Matches with Frame 635: 51
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-5.39233038e-11  9.31508952e-08 -7.07106783e-01]
@@ -6706,6 +7384,8 @@ Translation Matrix
  [1.28624459e-07]]
 ------------------Frame 635------------------
 Number of Matches with Frame 636: 41
+Number of Inliers with Frame 636: 4845
+Number of Good Matches with Frame 636: 41
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.67318332e-17 -1.45709434e-15 -7.07106781e-01]
@@ -6723,6 +7403,8 @@ Translation Matrix
  [ 0.00000000e+00]]
 ------------------Frame 636------------------
 Number of Matches with Frame 637: 62
+Number of Inliers with Frame 637: 6120
+Number of Good Matches with Frame 637: 62
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 3.67284108e-18  4.71761720e-17 -7.07106781e-01]
@@ -6740,6 +7422,8 @@ Translation Matrix
  [9.63692633e-17]]
 ------------------Frame 637------------------
 Number of Matches with Frame 638: 98
+Number of Inliers with Frame 638: 24480
+Number of Good Matches with Frame 638: 98
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.11457159e-19 -3.39154904e-17 -7.07106781e-01]
@@ -6757,6 +7441,8 @@ Translation Matrix
  [ 4.61189870e-17]]
 ------------------Frame 638------------------
 Number of Matches with Frame 639: 268
+Number of Inliers with Frame 639: 8415
+Number of Good Matches with Frame 639: 268
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.26447784e-17 -9.92209652e-15  7.63244694e-13]
@@ -6774,6 +7460,8 @@ Translation Matrix
  [-1.40319635e-14]]
 ------------------Frame 639------------------
 Number of Matches with Frame 640: 258
+Number of Inliers with Frame 640: 9690
+Number of Good Matches with Frame 640: 258
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 1.83486690e-19 -2.24710293e-04  1.61791411e-02]
@@ -6791,6 +7479,8 @@ Translation Matrix
  [-3.17788344e-04]]
 ------------------Frame 640------------------
 Number of Matches with Frame 641: 264
+Number of Inliers with Frame 641: 7140
+Number of Good Matches with Frame 641: 264
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-3.85254574e-18  2.73698006e-04 -7.04919653e-01]
@@ -6808,6 +7498,8 @@ Translation Matrix
  [3.87067432e-04]]
 ------------------Frame 641------------------
 Number of Matches with Frame 642: 256
+Number of Inliers with Frame 642: 9435
+Number of Good Matches with Frame 642: 256
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.55563165e-16 -3.28622354e-14  1.65807597e-12]
@@ -6825,6 +7517,8 @@ Translation Matrix
  [4.64742190e-14]]
 ------------------Frame 642------------------
 Number of Matches with Frame 643: 263
+Number of Inliers with Frame 643: 8160
+Number of Good Matches with Frame 643: 263
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.42349803e-16 -2.26592683e-15 -7.07106781e-01]
@@ -6842,6 +7536,8 @@ Translation Matrix
  [-3.38146279e-15]]
 ------------------Frame 643------------------
 Number of Matches with Frame 644: 238
+Number of Inliers with Frame 644: 7140
+Number of Good Matches with Frame 644: 238
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-4.81544849e-17  6.55765282e-14 -3.53574882e-12]
@@ -6859,6 +7555,8 @@ Translation Matrix
  [-9.27392155e-14]]
 ------------------Frame 644------------------
 Number of Matches with Frame 645: 241
+Number of Inliers with Frame 645: 8670
+Number of Good Matches with Frame 645: 241
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-1.91647155e-18 -4.95245274e-04  2.63866695e-02]
@@ -6876,6 +7574,8 @@ Translation Matrix
  [7.00382583e-04]]
 ------------------Frame 645------------------
 Number of Matches with Frame 646: 247
+Number of Inliers with Frame 646: 6885
+Number of Good Matches with Frame 646: 247
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-6.56759611e-18  8.93912807e-16 -4.48654982e-14]
@@ -6893,6 +7593,8 @@ Translation Matrix
  [-1.26418362e-15]]
 ------------------Frame 646------------------
 Number of Matches with Frame 647: 237
+Number of Inliers with Frame 647: 7140
+Number of Good Matches with Frame 647: 237
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 5.34212025e-19  9.88987839e-03 -6.56244951e-01]
@@ -6910,6 +7612,8 @@ Translation Matrix
  [ 0.0139864 ]]
 ------------------Frame 647------------------
 Number of Matches with Frame 648: 251
+Number of Inliers with Frame 648: 8670
+Number of Good Matches with Frame 648: 251
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 9.91693260e-19 -8.47026671e-04  4.65864669e-02]
@@ -6927,6 +7631,8 @@ Translation Matrix
  [-0.00119788]]
 ------------------Frame 648------------------
 Number of Matches with Frame 649: 248
+Number of Inliers with Frame 649: 7650
+Number of Good Matches with Frame 649: 248
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[ 8.38412278e-17  3.15532911e-14 -1.17454998e-12]
@@ -6944,6 +7650,8 @@ Translation Matrix
  [ 4.46230923e-14]]
 ------------------Frame 649------------------
 Number of Matches with Frame 650: 186
+Number of Inliers with Frame 650: 3315
+Number of Good Matches with Frame 650: 186
 Essential Matrix Shape (3, 3)
 Essential Matrix 
  [[-8.58921504e-17 -1.02906236e-12 -7.07106781e-01]
