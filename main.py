@@ -1,7 +1,7 @@
 from utils import *
 
-ROOT_DIR = "S:\\GitHub\\Visual-Odometry"
-FEATURE_DETECTOR = "SIFT" # "ORB" or "SIFT"
+ROOT_DIR = "N:\\GitHub\\Visual-Odometry"
+FEATURE_DETECTOR = "ORB" # "ORB" or "SIFT"
 
 ANIMATE_FRAMES = False
 ANIMATION_FPS = 30.0
@@ -13,7 +13,7 @@ SAVE_IMG = True
 def main():
     
     dataset = dataManager(
-        dataDir = ROOT_DIR,
+        rootDir = ROOT_DIR,
         featureDetector=FEATURE_DETECTOR
         )
 
