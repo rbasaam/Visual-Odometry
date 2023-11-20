@@ -7,7 +7,6 @@ FEATURE_DETECTOR = "ORB" # "ORB" or "SIFT"
 ANIMATE_FRAMES = False
 ANIMATION_FPS = 30.0
 
-SAVE_MATCHES = True
 
 def main():
     
@@ -20,7 +19,6 @@ def main():
     
     visualPath = dataset._trackMotion(
         featureDetector = FEATURE_DETECTOR,
-        saveMatches = SAVE_MATCHES,
         )
 
     return

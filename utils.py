@@ -100,7 +100,7 @@ class dataManager():
         logging.info(f"Run Number: {runNumber}")
 
         # Create and Log the Feature Detector
-        detector, index_params, search_params = self._createFeatureDetector()
+        detector, index_params, search_params = self._createFeatureDetector(featureDetector)
         logging.info(f"Feature Detector: {featureDetector}")
         
         # Initialize the Trajectory Array
