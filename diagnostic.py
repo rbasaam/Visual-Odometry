@@ -2,21 +2,26 @@ from utils import *
 from icecream import ic
 
 
-ROOT_DIR = "S:\\GitHub\\Visual-Odometry"
-dataset = dataManager(ROOT_DIR)
+matchesFolder = "S:\\GitHub\\Visual-Odometry\\logs\\matches"
+siftFolder = os.path.join(matchesFolder, "SIFT_1")
+orbFolder = os.path.join(matchesFolder, "ORB_2")
 
-runNumber = 2
+def animateFrames(folder, fps=20.0):
+    
+    outputFilename = f"{folder}.mp4"
+    imgList = [os.path.join(folder, x) for x in os.listdir(folder)]
+    imgList.sort(key=lambda x: int(x.split("_")[-1].split(".")[0]))
+    ic(imgList)
+    numImages = len(imgList)
 
-trajectory = dataset.readTrajectory(runNumber)
-# Plot Trajectory
-fig = plt.figure()
-ax = fig.add_subplot(111, projection='3d')
-ax.plot(trajectory[:, 0], trajectory[:, 1], trajectory[:, 2], label='Trajectory')
-ax.set_xlabel('X')
-ax.set_ylabel('Y')
-ax.set_zlabel('Z')
-ax.set_title(f"Trajectory")
-ax.legend()
-ax.text( trajectory[0, 0],  trajectory[1, 0],  trajectory[2, 0], "Start")
-ax.text(trajectory[0, -1], trajectory[1, -1], trajectory[2, -1],   "End")
-plt.show()
+    height, width = cv2.imread(imgList[0], cv2.IMREAD_GRAYSCALE).shape
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    video = cv2.VideoWriter(outputFilename, fourcc, fps, (width, height))
+    for f in range(numImages):
+        frame =cv2.imread(imgList[f], cv2.IMREAD_COLOR)
+        video.write(frame)
+    video.release()
+    return
+
+animateFrames(siftFolder)
+animateFrames(orbFolder)
