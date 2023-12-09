@@ -8,10 +8,9 @@ import logging
 # Define the Logging Configuration Messages
 logging.basicConfig(
     filename="logs/runtime.log",
-    level=logging.INFO,
+    level=logging.DEBUG,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%Y-%b-%d %H:%M:%S",
-
 )
 
 # Define Custom Error Messages
@@ -38,10 +37,25 @@ class dataManager():
         self.numImages = len(self.rgbList)
 
     def _loadImages(self):
+        """
+        Load the Images from the Dataset
+
+        Returns:
+            rgbImages: List of RGB Images
+            grayImages: List of Grayscale Images
+            depthImages: List of Depth Images
+        """
+        self.rgbImages = [cv2.cvtColor(cv2.imread(img), cv2.COLOR_BGR2RGB) for img in self.rgbList]
         self.grayImages = [cv2.imread(img, cv2.IMREAD_GRAYSCALE) for img in self.rgbList]
         self.depthImages = [cv2.imread(img, cv2.IMREAD_GRAYSCALE) for img in self.depthList]
     
     def _sampleFrame(self, frameNum: int):
+        """
+        Sample a Frame from the Dataset
+
+        Args:
+            frameNum (int): Frame Number to Sample
+        """
         
         rgbImage = cv2.cvtColor(cv2.imread(self.rgbList[frameNum-1]), cv2.COLOR_BGR2RGB)
         grayImage = cv2.imread(self.rgbList[frameNum-1], cv2.IMREAD_GRAYSCALE)
@@ -58,6 +72,13 @@ class dataManager():
         return
     
     def _animateFrames(self, fps=20.0, outputFilename = None):
+        """
+        Animate the Frames from the Dataset
+
+        Args:
+            fps (float, optional): Frames per Second. Defaults to 20.0.
+            outputFilename (str, optional): Output Filename. Defaults to "frameAnimation.mp4" if None.
+        """
         if outputFilename is None:
             outputFilename = "frameAnimation.mp4"
 
@@ -71,12 +92,28 @@ class dataManager():
         return
     
     def _createFeatureDetector(self, featureDetector="ORB"):
+        """
+        Create the Feature Detector
+
+        Args:
+            featureDetector (str, optional): Feature Detector to Use ("ORB"/"SIFT"). Defaults to "ORB".
+
+        Returns:
+            detector: Feature Detector Object
+            index_params: Index Parameters for FLANN Matcher
+            search_params: Search Parameters for FLANN Matcher
+        """
         if featureDetector == "ORB":
             # Initiate ORB detector
             detector = cv2.ORB_create(3000)
             # Match descriptors.
             flannIndex_LSH = 6
-            index_params = dict(algorithm=flannIndex_LSH, table_number=6, key_size=12, multi_probe_level=1)
+            index_params = dict(
+                algorithm=flannIndex_LSH, 
+                table_number=6, 
+                key_size=12, 
+                multi_probe_level=1
+                )
             search_params = dict(checks=50)
 
         elif featureDetector == "SIFT":
@@ -88,9 +125,32 @@ class dataManager():
         
         return detector, index_params, search_params
 
+    def _readTrajectory(self, runNumber: int):
+        """
+        Read the Trajectory from the Results Folder
+
+        Args:
+            runNumber (int): Run Number of the Trajectory to Read
+
+        Returns:
+            trajectory: Trajectory Array
+        """
+        logFiles = os.listdir(self.resultsDir)
+        filename = [os.path.join(self.resultsDir,x) for x in logFiles if f"_{runNumber}." in x][0]
+        trajectory = np.array(pd.read_csv(filepath_or_buffer=filename, header=None, sep=","))
+        return trajectory
        
     def _trackMotion(self, featureDetector="ORB", saveMatches=False):
+        """
+        Track the Motion of the Camera
 
+        Args:
+            featureDetector (str, optional): Feature Detector to Use ("ORB"/"SIFT"). Defaults to "ORB".
+            saveMatches (bool, optional): Save the Matches to Image File. Defaults to False.
+
+        Returns:
+            path: Trajectory Array
+        """
         # Load the Images
         logging.debug(f"Loading Images")
         self._loadImages()
@@ -146,7 +206,11 @@ class dataManager():
                     matchesMask = None, # draw only inliers
                     flags = 2
                 )
+                # Get the image points form the good matches
+                q1 = np.float32([kp1[m.queryIdx].pt for m in goodMatches])
+                q2 = np.float32([kp2[m.trainIdx].pt for m in goodMatches])
 
+                # Draw the Matches
                 img3 = cv2.drawMatches(self.grayImages[frameNum-1], kp1, self.grayImages[frameNum],kp2, goodMatches ,None,**draw_params)
                 cv2.imshow("image", img3)
                 if saveMatches:
@@ -156,10 +220,7 @@ class dataManager():
                     cv2.imwrite(os.path.join(os.path.join(self.matchesDir,f"{featureDetector}_{runNumber}"), f"matches_{frameNum}_{frameNum+1}.png"), img3)
                 cv2.waitKey(200)
 
-                # Get the image points form the good matches
-                q1 = np.float32([kp1[m.queryIdx].pt for m in goodMatches])
-                q2 = np.float32([kp2[m.trainIdx].pt for m in goodMatches])
-            
+            # Estimate the Essential Matrix and Recover Pose
             numMatches = q1.shape[0]
             failedToMatch = 0
             if numMatches < 6:
@@ -210,10 +271,3 @@ class dataManager():
         fig.savefig(plotFilename)
         
         return path
-
-    def _readTrajectory(self, runNumber: int):
-        logFiles = os.listdir(self.resultsDir)
-        filename = [os.path.join(self.resultsDir,x) for x in logFiles if f"_{runNumber}." in x][0]
-        trajectory = np.array(pd.read_csv(filepath_or_buffer=filename, header=None, sep=","))
-        return trajectory
-

@@ -1,12 +1,9 @@
 from utils import *
 
 ROOT_DIR = "S:\\GitHub\\Visual-Odometry"
-
 FEATURE_DETECTOR = "ORB" # "ORB" or "SIFT"
-
 ANIMATE_FRAMES = False
 ANIMATION_FPS = 30.0
-
 
 def main():
     
@@ -25,4 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
