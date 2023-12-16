@@ -172,7 +172,9 @@ class dataManager():
             logging.info(f"Detecting Matches Between Frame {frameNum} and Frame {frameNum+1}")
             # Find the keypoints and descriptors with Detector
             kp1, des1 = detector.detectAndCompute(self.grayImages[frameNum-1], None)
+            logging.debug(f"Number of Keypoints in Frame {frameNum}: {len(kp1)}")
             kp2, des2 = detector.detectAndCompute(self.grayImages[frameNum], None)
+            logging.debug(f"Number of Keypoints in Frame {frameNum+1}: {len(kp2)}")
 
             # Create FLANN matcher
             flann = cv2.FlannBasedMatcher(indexParams=index_params, searchParams=search_params)
